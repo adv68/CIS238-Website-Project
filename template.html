@@ -8,16 +8,46 @@
         <title>Smoothie Station</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <!--Header area for name and/or logo-->
         <header>
-
+            <h1>Smoothie Station</h1>
         </header>
 
         <!--Nav area for navigation links-->
         <nav>
-
+            <div class="mobile mobileNavRow">
+                <a href="javascript:void(0);" onclick="toggleMobileNav()">
+                    <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                        <line x1="50" y1="50" x2="250" y2="50" style="stroke:rgb(0,0,0);stroke-width:50" />
+                        <line x1="50" y1="150" x2="250" y2="150" style="stroke:rgb(0,0,0);stroke-width:50" />
+                        <line x1="50" y1="250" x2="250" y2="250" style="stroke:rgb(0,0,0);stroke-width:50" />
+                    </svg>
+                </a>
+            </div>
+            <ul id="navList">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdownBtn">About Us</a>
+                    <div class="dropdownMenu">
+                        <a class="dropdownLink" href="mission.html">Our Mission</a>
+                        <a class="dropdownLink" href="sourcing.html">Eco-Friendly Sourcing</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdownBtn">Menus</a>
+                    <div class="dropdownMenu">
+                        <a class="dropdownLink" href="catering.html">Catering Menu</a>
+                        <a clsas="dropdownLink" href="storefront.html">Storefront Menu</a>
+                    </div>
+                </li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+                <li><a href="employment.html">Work With Us</a></li>
+                <li><a href="merchandise.html">Merchandise</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
 
         <!--Main area for main page content-->
@@ -27,7 +57,9 @@
 
         <!--Footer area for footer content-->
         <footer>
-            
+
         </footer>
+        <script type="text/javascript" src="scripts/script.js"></script>
+
     </body>
 </html>
