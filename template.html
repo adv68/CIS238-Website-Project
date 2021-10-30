@@ -10,37 +10,32 @@
         <link rel="stylesheet" href="css/styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <body>
+    <body id="mainBody">
         <!--Header area for name and/or logo-->
         <header>
+            <div id="navButtonContainer" class="mobile-tablet">
+                <img id="mobileNavBtn" class="mobile-tablet" src="images/menu-icon.png" alt="mobile menu button" onclick="toggleMobileNav()">
+                <!-- ADD LOGO IN THE MIDDLE OF NAV BUTTON BAR ON MOBILE HERE -->
+            </div>
             <h1>Smoothie Station</h1>
         </header>
 
         <!--Nav area for navigation links-->
         <nav>
-            <div class="mobile mobileNavRow">
-                <a href="javascript:void(0);" onclick="toggleMobileNav()">
-                    <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" version="1.1">
-                        <line x1="50" y1="50" x2="250" y2="50" style="stroke:rgb(0,0,0);stroke-width:50" />
-                        <line x1="50" y1="150" x2="250" y2="150" style="stroke:rgb(0,0,0);stroke-width:50" />
-                        <line x1="50" y1="250" x2="250" y2="250" style="stroke:rgb(0,0,0);stroke-width:50" />
-                    </svg>
-                </a>
-            </div>
-            <ul id="navList">
+            <ul id="navList" class="desktop-only">
                 <li><a href="index.html">Home</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdownBtn">About Us</a>
                     <div class="dropdownMenu">
-                        <a class="dropdownLink" href="mission.html">Our Mission</a>
-                        <a class="dropdownLink" href="sourcing.html">Eco-Friendly Sourcing</a>
+                        <a href="mission.html">Our Mission</a>
+                        <a href="sourcing.html">Eco-Friendly Sourcing</a>
                     </div>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdownBtn">Menus</a>
                     <div class="dropdownMenu">
-                        <a class="dropdownLink" href="catering.html">Catering Menu</a>
-                        <a clsas="dropdownLink" href="storefront.html">Storefront Menu</a>
+                        <a href="catering.html">Catering Menu</a>
+                        <a href="storefront.html">Storefront Menu</a>
                     </div>
                 </li>
                 <li><a href="nutrition.html">Nutrition</a></li>
@@ -48,11 +43,53 @@
                 <li><a href="merchandise.html">Merchandise</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
+
+            <div id="mobileMenuContainer" style="width: 0;">
+                <ul id="mobileMenu" class="mobile-tablet">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mission.html">About&#8594;Our Mission</a></li>
+                    <li><a href="sourcing.html">About&#8594;Eco-Friendly Sourcing</a></li>
+                    <li><a href="catering.html">Catering Menu</a></li>
+                    <li><a href="storefront.html">Storefront Menu</a></li>
+                    <li><a href="nutrition.html">Nutrition</a></li>
+                    <li><a href="employment.html">Work With Us</a></li>
+                    <li><a href="merchandise.html">Merchandise</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
         </nav>
 
         <!--Main area for main page content-->
         <main>
-
+            <h2>Dummy Content</h2>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
+            <p>asdf</p>
         </main>
 
         <!--Footer area for footer content-->

@@ -1,8 +1,14 @@
 function toggleMobileNav() {
-    var nav = document.getElementById("navList");
-    if (nav.style.display === "block") {
-        nav.style.display = "none";
+    var menu = document.getElementById("mobileMenuContainer");
+    var body = document.getElementById("mainBody");
+    var navButtonContainer = document.getElementById("navButtonContainer")
+    if (menu.style.width == "0px") {
+        menu.style.width = "67%";
+        body.style.left = "67%";
+        navButtonContainer.style.left = "67%";
     } else {
-        nav.style.display = "block";
+        menu.style.width = "0";
+        body.style.left = "0";
+        navButtonContainer.style.left = "0";
     }
 }

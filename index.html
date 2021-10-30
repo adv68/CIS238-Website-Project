@@ -1,5 +1,5 @@
 <!--
-    Homepage file for the CIS 238 Group Project
+    Template file for the CIS 238 Group Project
 -->
 
 <!DOCTYPE html>
@@ -10,37 +10,32 @@
         <link rel="stylesheet" href="css/styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <body>
+    <body id="mainBody">
         <!--Header area for name and/or logo-->
         <header>
+            <div id="navButtonContainer" class="mobile-tablet">
+                <img id="mobileNavBtn" class="mobile-tablet" src="images/menu-icon.png" alt="mobile menu button" onclick="toggleMobileNav()">
+                <!-- ADD LOGO IN THE MIDDLE OF NAV BUTTON BAR ON MOBILE HERE -->
+            </div>
             <h1>Smoothie Station</h1>
         </header>
 
         <!--Nav area for navigation links-->
         <nav>
-            <div class="mobile mobileNavRow">
-                <a href="javascript:void(0);" onclick="toggleMobileNav()">
-                    <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" version="1.1">
-                        <line x1="50" y1="50" x2="250" y2="50" style="stroke:rgb(0,0,0);stroke-width:50" />
-                        <line x1="50" y1="150" x2="250" y2="150" style="stroke:rgb(0,0,0);stroke-width:50" />
-                        <line x1="50" y1="250" x2="250" y2="250" style="stroke:rgb(0,0,0);stroke-width:50" />
-                    </svg>
-                </a>
-            </div>
-            <ul id="navList">
+            <ul id="navList" class="desktop-only">
                 <li><a href="index.html">Home</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdownBtn">About Us</a>
                     <div class="dropdownMenu">
-                        <a class="dropdownLink" href="mission.html">Our Mission</a>
-                        <a class="dropdownLink" href="sourcing.html">Eco-Friendly Sourcing</a>
+                        <a href="mission.html">Our Mission</a>
+                        <a href="sourcing.html">Eco-Friendly Sourcing</a>
                     </div>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdownBtn">Menus</a>
                     <div class="dropdownMenu">
-                        <a class="dropdownLink" href="catering.html">Catering Menu</a>
-                        <a clsas="dropdownLink" href="storefront.html">Storefront Menu</a>
+                        <a href="catering.html">Catering Menu</a>
+                        <a href="storefront.html">Storefront Menu</a>
                     </div>
                 </li>
                 <li><a href="nutrition.html">Nutrition</a></li>
@@ -48,11 +43,31 @@
                 <li><a href="merchandise.html">Merchandise</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
+
+            <div id="mobileMenuContainer" style="width: 0;">
+                <ul id="mobileMenu" class="mobile-tablet">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mission.html">About&#8594;Our Mission</a></li>
+                    <li><a href="sourcing.html">About&#8594;Eco-Friendly Sourcing</a></li>
+                    <li><a href="catering.html">Catering Menu</a></li>
+                    <li><a href="storefront.html">Storefront Menu</a></li>
+                    <li><a href="nutrition.html">Nutrition</a></li>
+                    <li><a href="employment.html">Work With Us</a></li>
+                    <li><a href="merchandise.html">Merchandise</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
         </nav>
 
         <!--Main area for main page content-->
         <main>
-            <h2>Content Here</h2>
+            <h2>Welcome to the Smoothie Station!</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum sem et mi tempus, sed iaculis eros commodo. Aliquam erat lorem, ultrices sed mi eget, convallis auctor quam. Donec finibus lobortis mi, ut pharetra metus egestas sed. Integer ornare lorem libero, vel aliquet lorem condimentum id. Duis venenatis dolor eget efficitur facilisis. Pellentesque lacinia augue ex. Morbi ut velit sit amet arcu condimentum elementum at at purus. Duis mi justo, pellentesque non luctus et, pellentesque in diam. Praesent rutrum aliquam consequat. Fusce nec suscipit ex.</p>
+            <p>Nullam finibus tempus molestie. Suspendisse consequat nec est sed congue. In hac habitasse platea dictumst. Cras nibh dolor, lobortis eu enim ac, tempus efficitur sem. Duis pretium tellus nec nunc eleifend, a consequat tortor ultricies. Nunc erat dui, pulvinar quis iaculis a, commodo gravida dui. Aenean aliquet nisi purus, sed commodo elit mollis eu. Praesent facilisis augue justo, sit amet pellentesque lacus placerat nec. Sed dictum dolor vel tellus lacinia gravida. Pellentesque vehicula dolor non elementum rhoncus. Nunc vitae mattis magna, eu congue enim. Nulla facilisi.</p>
+            <p>Fusce in efficitur augue, non accumsan ligula. Phasellus sapien risus, malesuada ac ultricies sed, pretium ac lectus. Morbi accumsan fringilla magna. Nulla id pharetra justo, eu dictum dolor. Morbi eget odio ac justo consequat commodo a in neque. Sed rutrum volutpat erat, vel euismod nibh euismod sit amet. Curabitur vel nibh mi. Curabitur non accumsan felis. Ut accumsan sit amet nisi a hendrerit. Phasellus fringilla molestie urna, sed placerat massa ultricies et. Duis sodales dui purus, et egestas risus fringilla convallis. Aenean facilisis dignissim velit. Aenean a nibh tristique ex rhoncus elementum. Praesent id metus pharetra, facilisis dolor id, vulputate nibh. Aliquam efficitur suscipit cursus.</p>
+            <p>Donec pharetra sem mollis, rhoncus felis sed, dictum erat. Curabitur tincidunt ultricies sem, congue volutpat ipsum vehicula nec. Vestibulum erat mauris, consectetur et varius vitae, feugiat in quam. In faucibus, massa et feugiat facilisis, mi purus ultrices eros, non imperdiet mauris justo at risus. Cras tempus odio sit amet lacus egestas, eu vestibulum diam aliquam. Cras tincidunt ac erat eu blandit. Donec pellentesque tempus enim, eget ultrices tellus efficitur vel. Suspendisse facilisis feugiat vehicula. Aenean sollicitudin feugiat sem quis ultrices. Cras ac enim a nisi maximus consequat.</p>
+            <p>Cras sed lobortis arcu, a scelerisque metus. Proin mi justo, tempor aliquet orci id, auctor congue neque. Nulla lorem odio, suscipit vel finibus sit amet, bibendum et nisl. Phasellus sagittis laoreet nulla vulputate vulputate. Donec bibendum eu ipsum quis auctor. Nunc sollicitudin massa sit amet dui dictum, non aliquam orci elementum. Nam id purus fermentum, mollis arcu vitae, volutpat lorem. </p>
         </main>
 
         <!--Footer area for footer content-->
