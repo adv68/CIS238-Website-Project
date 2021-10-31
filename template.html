@@ -14,7 +14,7 @@
         <!--Header area for name and/or logo-->
         <header>
             <div id="navButtonContainer" class="mobile-tablet">
-                <img id="mobileNavBtn" class="mobile-tablet" src="images/menu-icon.png" alt="mobile menu button" onclick="toggleMobileNav()">
+                <img id="mobileNavBtn" class="mobile-tablet" src="images/menu-icon.png" alt="mobile menu button" onclick="openSideNav">
                 <!-- ADD LOGO IN THE MIDDLE OF NAV BUTTON BAR ON MOBILE HERE -->
             </div>
             <h1>Smoothie Station</h1>
@@ -46,7 +46,7 @@
 
             <div id="mobileMenuContainer">
                 <ul id="mobileMenu" class="mobile-tablet">
-                    <li><a href="#" id="exit-button">&times;</a> 
+                    <li><a href="javascript:void(0)" onclick="closeSideNav()" id="exit-button">&times;</a> 
                     <li><a href="index.html">Home</a></li>
                     <li><a href="mission.html">About&#8594;Our Mission</a></li>
                     <li><a href="sourcing.html">About&#8594;Eco-Friendly Sourcing</a></li>
