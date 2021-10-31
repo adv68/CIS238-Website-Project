@@ -1,22 +1,7 @@
-function toggleMobileNav() {
-    var menu = document.getElementById("mobileMenuContainer");
-    var body = document.getElementById("mainBody");
-    var navButtonContainer = document.getElementById("navButtonContainer")
-    if (menu.style.width == "0px") {
-        menu.style.width = "67%";
-        body.style.left = "67%";
-        navButtonContainer.style.left = "67%";
-    } else {
-        menu.style.width = "0";
-        body.style.left = "0";
-        navButtonContainer.style.left = "0";
-    }
-}
-
 function closeSideNav(){
-	document.getElementById("mobileMenuContainer").style.width = "0px";
+	document.getElementById("sideNav").style.width = "0px";
 }
 
 function openSideNav(){
-	document.getElementById("mobileMenuContainer").style.width = "150px";
+	document.getElementById("sideNav").style.width = "250px";
 }

@@ -20,13 +20,7 @@ body, header, nav, main, footer, ul, li, a, h1, h2, img {
 
 /* Style rules for body */
 body {
-    width: 100%;
-    position: absolute;
     background-color: #a7f5a4;
-    top: 0px;
-    left: 0px;
-    overflow-x: hidden;
-    transition: 0.5s;
 }
 
 /* Style rules for header */
@@ -36,14 +30,9 @@ header {
 }
 
 #navButtonContainer {
-    /*position: absolute;*/
-    position: fixed;
-    top: 0px;
-    left: 0px;
     height: 60px;
     width: 100%;
     background-color: #16c25e;
-    transition: 0.5s;
 }
 
 #mobileNavBtn {
@@ -52,36 +41,43 @@ header {
 }
 
 /* Style rules for nav */
-#mobileMenuContainer {
-    height: 100%;
-    width: 0px;
-    /* max-width: 300px; -- Implement this later, need to modify JS to do so */
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #cccccc;
-    overflow-x: hidden;
-    transition: 0.5s;
+#sideNav{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #ccc;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
 }
 
-#mobileMenuContainer ul {
+#sideNav ul a {
+	transition: 0.3s;
+	padding: 5px;
+	padding-bottom: 32px;
+}
+	
+#sideNav ul {
     margin: 0.2em;
 }
 
-#mobileMenuContainer li {
+#sideNav li {
     padding: 0.5em 0 0.5em 0.25em;
     border-top: 1px #000000 solid;
 }
 
-#mobileMenuContainer li:first-child {
+#sideNav li:first-child {
     border-top: none;
 }
 
-#navList {
-    overflow: hidden;
-    position: relative;
-    display: none;
+#exit-button{
+	font-weight: bolder;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 nav ul a {
@@ -141,15 +137,6 @@ main {
         display: none;
     }
 
-    #navList {
-        overflow: visible;
-        display: block;
-    }
-
-    .dropdownBtn {
-        display: block;
-    }
-    
     nav ul {
         list-style-type: none;
     }
