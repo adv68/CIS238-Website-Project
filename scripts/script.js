@@ -12,3 +12,11 @@ function toggleMobileNav() {
         navButtonContainer.style.left = "0";
     }
 }
+
+function closeSideNav(){
+	document.getElementById("navList").style.width = "0px";
+}
+
+function openSideNav(){
+	document.getElementById("navList").style.width = "150px";
+}
