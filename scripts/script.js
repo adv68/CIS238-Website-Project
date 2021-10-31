@@ -14,9 +14,9 @@ function toggleMobileNav() {
 }
 
 function closeSideNav(){
-	document.getElementById("navList").style.width = "0px";
+	document.getElementById("mobileMenuContainer").style.width = "0px";
 }
 
 function openSideNav(){
-	document.getElementById("navList").style.width = "150px";
+	document.getElementById("mobileMenuContainer").style.width = "150px";
 }
