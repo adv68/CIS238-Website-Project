@@ -71,6 +71,7 @@ header {
 	
 #sideNav ul {
     margin: 0.2em;
+	white-space: nowrap;
 }
 
 #sideNav li {
