@@ -21,6 +21,7 @@ body, header, nav, main, footer, ul, li, a, h1, h2, img {
 /* Style rules for body */
 body {
     background-color: #a7f5a4;
+	transition: 0.5s;
 }
 
 /* Style rules for header */
