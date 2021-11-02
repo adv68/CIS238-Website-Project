@@ -25,6 +25,7 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
 	font-family: Verdana, sans-serif;
+	border-radius: 5% 3%;
 }
 
 #contentWrapper {
