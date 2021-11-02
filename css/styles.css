@@ -24,9 +24,7 @@ body {
     width: 100%;
     overflow-x: hidden;
     transition: 0.5s;
-	font-family: Verdana, sans-serif;
-	border-radius: 5% 3%;
-	border: solid 10px;	
+	font-family: Verdana, sans-serif;	
 }
 
 #contentWrapper {
@@ -103,6 +101,8 @@ nav ul a {
 /* Style rules for main area */
 main {
     padding: 1%;
+	border-radius: 5% 3%;
+	border: solid 10px;
 }
 
 /* Style rules for footer area */
