@@ -34,7 +34,7 @@ body {
 
 /* Style rules for header */
 header {
-    /*background-color: #16c25e;*/
+    background-color: #16c25e;
 	background: linear-gradient(to right, #16c25e, #a7f5a4);
     min-height: 60px;
 }
