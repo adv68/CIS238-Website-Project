@@ -103,6 +103,11 @@ main {
     padding: 1%;
 }
 
+/* Style rules for footer area */
+footer {
+	 background-image: linear-gradient(to bottom right, #a7f5a4, #16c25e, #216628);
+}
+
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 600px) {
     /* Hide mobile only, show tablet content */
