@@ -35,19 +35,35 @@ body {
 
 /* Style rules for header */
 header {
-   background-image: linear-gradient(to bottom right, #a7f5a4, #16c25e, #216628);
-    min-height: 60px;
+	background-image: linear-gradient(to bottom right, #a7f5a4, #16c25e, #216628);
+	height: 100%;
+	min-height: 60px;
 }
 
 #navButtonContainer {
-    height: 60px;
     width: 100%;
-    background-color: #16c25e;
+}
+
+#navButtonContainer a{
+	text-decoration: none;
+	font-size: 6vw;
+	font-weight: bolder;
+	color: #000;
 }
 
 #mobileNavBtn {
     height: 60px;
     width: 60px;
+}
+
+.2c-grid{
+	display: grid;
+	grid-column-template: repeat(2, 1fr);
+	grid-gap: 20px;
+}
+
+.2c-grid-test{
+	background-color: #111;
 }
 
 /* Style rules for nav */
@@ -110,6 +126,11 @@ main {
 	border: solid 10px;
 }
 
+.3c-grid{
+	display: grid;
+	grid-column-template: repeat(3, 1fr)
+}
+
 /* Style rules for footer area */
 footer {
 	background-image: linear-gradient(to bottom right, #a7f5a4, #16c25e, #216628);
@@ -131,7 +152,7 @@ footer {
 
 
 /* Media Query for Desktop Viewport */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1040px) {
     /* Hide mobile/tablet content, show desktop content */
     .mobile-tablet {
         display: none;
@@ -145,6 +166,7 @@ footer {
     header {
         background-color: #16c25e;
         position: relative;
+		padding-left: 2%;
     }
 
     header h1 {
