@@ -144,8 +144,21 @@ article {
     padding: 5px;
 }
 
+article h3{
+	text-align: center;
+}
+
+article img{
+	margin: 0 auto;
+	display: block;
+}
+
 article ul {
     margin-left: 20px;
+}
+
+article:nth-of-type(2){
+	background-color: rgba(204, 204, 204, 0.3);
 }
 
 /* Style rules for footer area */
@@ -187,6 +200,18 @@ footer {
     .twocol-grid {
         grid-template-columns: 48% 48%;
     }
+
+	/*tablet viewport for main content*/
+
+	.grid{
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-gap: 20px;
+	}
+
+	.grid-item4{
+		grid-column: 1 / span 3;
+	}
 }
 /* End of Media Query for Tablet Viewport */ 
 
