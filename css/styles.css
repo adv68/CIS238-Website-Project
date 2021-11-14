@@ -32,13 +32,16 @@ body {
     width: 100%;
     overflow-x: hidden;
     transition: 0.5s;
-	font-family: Verdana, sans-serif;	
+	font-family: Verdana, sans-serif;
+	position: absolute;
+	min-height: 100vh;	
 }
 
 #contentWrapper {
     overflow-x: hidden;
     transition: 0.5s;
     width: 100%;
+	padding-bottom: 80px;
 }
 
 /* Style rules for header */
@@ -129,6 +132,77 @@ nav ul a {
 /* Style rules for main area */
 main {
     padding: 2%;
+	margin: 1%;
+	margin-bottom: 60px;
+}
+
+/*Style rules for the catering page, mobile first*/
+#catering{
+	text-align: center;
+	height: auto;
+	margin: 2%;
+}
+
+#menu{
+	border: 1px solid white;
+	margin: 1% auto;
+	padding: 2%;
+}
+
+#menu-items{
+	border-radius: 5px;
+}
+
+#menu-items img{
+	width: 100%;
+	border-radius: 5px;
+	display: block;
+}
+
+#menu-items figure{
+	position: relative;
+	text-align: center;
+}
+
+
+
+.figure-data:hover + .catering-desc{
+	display: block;
+}
+
+.catering-desc:hover{
+	display: block;
+}
+
+#menu-items figcaption{
+	position: absolute;
+	bottom: 0;
+	font-size: 2em;
+	width: 100%;
+	font-family: "Mongolian Baiti", "Times New Roman", serif;
+	background-color: #fff;
+	opacity: 75%;
+	border-radius: 5px;
+}
+
+.round{
+	border-radius: 20px;
+}
+
+.catering-desc{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	opacity: 70%;
+	border-radius: 5px;
+}
+
+#menu-items figure p{
+	opacity: 100%;
 }
 
 /* display grid as one column on mobile */
@@ -165,6 +239,10 @@ article:nth-of-type(2){
 footer {
 	background-image: linear-gradient(to bottom right, #a7f5a4, #16c25e, #216628);
 	min-height: 60px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
 }
 
 /* Media Query for Tablet Viewport */
@@ -181,6 +259,14 @@ footer {
     .tablet-desktop {
         display: block;
     }
+	
+	/* Style rules for body */
+	
+	/* TBD
+	#contentWrapper{
+		background: linear-gradient(transparent 50%, #fff)
+	}
+	*/
 
     /* Style rules for header */
     #mobileLogoCenter {
@@ -211,6 +297,15 @@ footer {
 
 	.grid-item4{
 		grid-column: 1 / span 3;
+	}
+	
+	/*Set grid to 3 columns*/
+	.menu-grid{
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 20px;
+		align-items: center;
+		justify-content: center;
 	}
 }
 /* End of Media Query for Tablet Viewport */ 
@@ -302,5 +397,9 @@ footer {
         width: 80%;
         margin: 0 auto;
     }
+	
+	.menu-grid{
+		grid-template-columns: 33% 33% 33%;
+	}
 }
 /* End of Media Query for Desktop Viewport */
