@@ -201,10 +201,6 @@ main {
 	border-radius: 5px;
 }
 
-#menu-items figure p{
-	opacity: 100%;
-}
-
 /* display grid as one column on mobile */
 .twocol-grid {
     display: grid;
