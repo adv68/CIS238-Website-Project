@@ -208,6 +208,12 @@ main {
     gap: 20px;
 }
 
+.threecol-grid {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1%;
+}
+
 article {
     border: 5px solid #ffffff;
     color: #000000;
@@ -229,6 +235,11 @@ article ul {
 
 article:nth-of-type(2){
 	background-color: rgba(204, 204, 204, 0.3);
+}
+
+.homeImg {
+    width: 90%;
+    margin: 0 auto;
 }
 
 /* Style rules for footer area */
@@ -281,6 +292,11 @@ footer {
     /* Set grid to two columns on tablet */
     .twocol-grid {
         grid-template-columns: 48% 48%;
+    }
+
+    /* set grid to three columns on tablet */
+    .threecol-grid {
+        grid-template-columns: 32% 32% 32%;
     }
 
 	/*tablet viewport for main content*/
