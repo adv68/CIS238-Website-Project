@@ -136,6 +136,10 @@ main {
 	margin-bottom: 60px;
 }
 
+h2 {
+	color: #784212;
+}
+
 /*Style rules for the catering page, mobile first*/
 #catering{
 	text-align: center;
