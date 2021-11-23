@@ -29,8 +29,8 @@ body, header, nav, main, footer, ul, li, a, h1, h2, img {
 /* Style rules for body */
 body {
     background-color: #fbf9ec;
-    border: 5px #1a5e1b;
-    border-radius: 5px;
+    /* border: 5px #1a5e1b;
+    border-radius: 5px; */
     width: 100%;
     overflow-x: hidden;
     transition: 0.5s;
