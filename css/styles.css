@@ -94,7 +94,7 @@ header {
 	transition: 0.3s;
 	padding: 5px;
 	padding-bottom: 32px;
-	color: #000000;
+	color: #784212;
 	font-size: 1.2em;
 }
 	
@@ -105,7 +105,7 @@ header {
 
 #sideNav li {
     padding: 0.5em 0 0.5em 0.25em;
-    border-top: 1px #000000 solid;
+    border-top: 1px #784212 solid;
 }
 
 #sideNav li:first-child {
@@ -119,7 +119,7 @@ header {
 	right: 10px;
 	text-decoration: none;
 	font-size: 1.5em;
-	color: #000000;
+	color: #784212;
 }
 
 nav ul a {
@@ -216,7 +216,7 @@ main {
 
 article {
     border: 5px solid #ffffff;
-    color: #000000;
+    color: #784212;
     padding: 5px;
 }
 
@@ -281,7 +281,7 @@ footer {
         width: 450px;
         margin: auto;
         text-decoration: none;
-        color: #000000;
+        color: #784212;
         font-size: 36px;
     }
 
@@ -370,7 +370,7 @@ footer {
     nav li a {
         font-weight: bold;
         padding: 0.4em 0.8em;
-        color: #000000;
+        color: #784212;
     }
     
     nav li a:hover {
