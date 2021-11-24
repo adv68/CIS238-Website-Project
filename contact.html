@@ -1,0 +1,115 @@
+<!--
+    Template file for the CIS 238 Group Project
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Smoothie Station</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body id="mainBody">
+		<!--
+		<div class="mobile-tablet" id="sideNav">
+			<ul>
+				<li><a href="javascript:void(0)" onclick="closeSideNav()" id="exit-button">X</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="mission.html">Our Mission</a></li>
+				<li><a href="sourcing.html">Eco-Friendly Sourcing</a></li>
+				<li><a href="catering.html">Catering Menu</a></li>
+				<li><a href="storefront.html">Storefront Menu</a></li>
+				<li><a href="nutrition.html">Nutrition</a></li>
+				<li><a href="employment.html">Work With Us</a></li>
+				<li><a href="merchandise.html">Merchandise</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+	-->
+		<div id="contentWrapper">
+			<!--Header area for name and/or logo-->
+			<header>
+				<div id="navButtonContainer" class="mobile-tablet">
+					<img id="mobileNavBtn" src="images/menu-icon.png" alt="mobile menu button" onclick="openSideNav()"/>
+					<!--<a href="index.html"><img id="mobileLogoCenter" width="60px" height="60px" src="images/small-logo.png" alt="Smoothie Station logo"/></a>-->
+					<a href="index.html"><h1 id="mobileLogoCenter"><img src="images/small-logo.png" alt="Smoothie Station Logo"/><span class="tablet-only">Smoothie Station</span></h1></a>
+				</div>
+				
+				<div class="desktop-only">
+					<h1><img width="50" height="75" src="images/smoothie-station-logo.png" alt="Smoothie Station logo">Smoothie Station</h1>  
+				</div>
+			</header>
+
+			<!--Nav area for navigation links-->
+			<nav>
+				<div class="desktop-only">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdownBtn">About Us</a>
+							<div class="dropdownMenu">
+								<a href="mission.html" class="">Our Mission</a>
+								<a href="sourcing.html">Eco-Friendly Sourcing</a>
+							</div>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdownBtn">Menus</a>
+							<div class="dropdownMenu">
+								<a href="catering.html">Catering Menu</a>
+								<a href="storefront.html">Storefront Menu</a>
+							</div>
+						</li>
+						<li><a href="nutrition.html">Nutrition</a></li>
+						<li><a href="employment.html">Work With Us</a></li>
+						<li><a href="merchandise.html">Merchandise</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</div>
+
+				
+				<div class="mobile-tablet" id="sideNav">
+					<a href="javascript:void(0)" onclick="closeSideNav()" id="exit-button">X</a>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="mission.html">Our Mission</a></li>
+						<li><a href="sourcing.html">Eco-Friendly Sourcing</a></li>
+						<li><a href="catering.html">Catering Menu</a></li>
+						<li><a href="storefront.html">Storefront Menu</a></li>
+						<li><a href="nutrition.html">Nutrition</a></li>
+						<li><a href="employment.html">Work With Us</a></li>
+						<li><a href="merchandise.html">Merchandise</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</div>
+			
+			</nav>
+
+			<!--Main area for main page content-->
+			<main>
+			
+			<div id="contact">
+			<h2>Our Contact Info:</h2>
+			<p><a href="mailto:smothiestation@yahoo.com" class="contact-email-link">SmoothieStation@yahoo.com</a></p>
+			<p class="mobile-only tel-link"><a href="tel:6165557575">(616)555-7575</a></p>
+			<p class="tablet-desktop tel-num"><a href="tel:6165557575">(616)555-7575</a></p>
+			<p>Visit Us!:</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1458.771458785113!2d-85.69000189938482!3d43.00895836438742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8819aea929e78cef%3A0x4ada10e0d4d824a2!2s2505%20Alpine%20Ave%20NW%2C%20Grand%20Rapids%2C%20MI%2049544!5e0!3m2!1sen!2sus!4v1637722214442!5m2!1sen!2sus" allowfullscreen="" class="map"></iframe>
+			</div>
+			</main>
+
+			<!--Footer area for footer content-->
+			<footer>
+				<p>
+					&#169; Copyright 2021. All Rights Reserved.
+				</p>
+				<p>
+					<!--Example email that is hopefully bogus and not real-->
+					SmoothieStation@yahoo.com
+				</p>
+			</footer>
+			<script type="text/javascript" src="scripts/script.js"></script>
+		</div>
+    </body>
+</html>
