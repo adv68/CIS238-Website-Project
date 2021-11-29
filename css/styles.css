@@ -148,7 +148,7 @@ main h2 {
 }
 
 #menu{
-	border: 1px solid white;
+	background: linear-gradient(#FFFFB0, #257A41);
 	margin: 1% auto;
 	padding: 2%;
 }
@@ -166,16 +166,6 @@ main h2 {
 #menu-items figure{
 	position: relative;
 	text-align: center;
-}
-
-
-
-.figure-data:hover + .catering-desc{
-	display: block;
-}
-
-.catering-desc:hover{
-	display: block;
 }
 
 #menu-items figcaption{
@@ -203,6 +193,45 @@ main h2 {
 	background-color: #fff;
 	opacity: 70%;
 	border-radius: 5px;
+}
+
+#catering-order{
+	display: block;
+}
+
+#catering-qty{
+	width: 50px;
+}
+
+#catering-cart{
+	text-align: left;
+	margin: 1%;
+	padding: 2%;
+	border: 2px solid black;
+	border-radius: 5px;
+	position: relative;
+}
+
+#orders-title{
+	position: absolute;
+	top: -11px;
+	background: #fff;
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 100px;
+	text-align: center;
+}
+
+.catering-form-template-style{
+	border: 0;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Mongolian Baiti";
+    font-size: 1em;
+	background: #fff;
+	margin: 5px;
 }
 
 /* display grid as one column on mobile */
@@ -449,6 +478,15 @@ footer {
     .dropdown:hover .dropdownBtn {
         background-color: #ffffff;
     }
+	
+	/*Catering desktop rules*/
+	.figure-data:hover + .catering-desc{
+		display: block;
+	}
+
+	.catering-desc:hover{
+		display: block;
+	}
 
     /* customize grid for desktop */
     .twocol-grid {

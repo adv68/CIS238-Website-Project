@@ -102,7 +102,7 @@
 						<figure>
 							<div class="figure-data">
 								<img src="images/peanut-butter.jpg" alt="#"/>
-								<figcaption>Peanut Butter Banana</figcaption>
+								<figcaption>PB &amp Banana</figcaption>
 							</div>
 							
 							<div class="catering-desc">
@@ -145,6 +145,30 @@
 						
 					</div>
 				</div>
+				<div id="catering-order">
+					<form id="catering-form">
+						<select name="dropdown" id="catering-dropdown" class="catering-form-template-style">
+							<option value="1">Strawberry Banana</option>
+							<option value="2">Wildberry</option>
+							<option value="3">Peanut Butter Banana</option>
+							<option value="4">Mango</option>
+							<option value="5">Greek Salad</option>
+							<option value="6">Sandwiches</option>
+						</select>
+						
+						<input type="text" id="catering-qty" class="catering-form-template-style" placeholder="QTY.">
+						<input type="submit" class="catering-form-template-style">
+					</form>
+					
+					<button onclick="addToCateringCart()" class="catering-form-template-style">Add to Order</button>
+					<button onclick="resetCart()" class="catering-form-template-style">Reset Order</button>
+					
+					<div id="catering-cart">
+						<span id="orders-title">Orders</span>
+					</div>
+					
+				</div>
+				
 			</main>
 
 			<!--Footer area for footer content-->
