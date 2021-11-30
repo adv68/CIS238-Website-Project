@@ -89,17 +89,53 @@
 			<!--Main area for main page content-->
 			<main>
 			
-			<div id="contact">
-			<h2>Questions or Concerns? Reach Out to Us!</h2>
-			<p>Your concerns are out priority! If any of our products are not up to your standard or if you have questions about any of our menu items contact us at any of our U.S locations.</p>
-			<h3>Send us an email! We'd love to hear from you.</h3>
-			<p><a href="mailto:smothiestation@yahoo.com" class="contact-email-link">SmoothieStation@yahoo.com</a></p>
-			<h3>Want to talk to a representative? Call us during our regular business hours (8am-8pm EST):</h3>
-			<p class="mobile-only tel-link"><a href="tel:6165557575">(616)555-7575</a></p>
-			<p class="tablet-desktop tel-num"><a href="tel:6165557575">(616)555-7575</a></p>
-			<p>Visit Us!:</p>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1458.771458785113!2d-85.69000189938482!3d43.00895836438742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8819aea929e78cef%3A0x4ada10e0d4d824a2!2s2505%20Alpine%20Ave%20NW%2C%20Grand%20Rapids%2C%20MI%2049544!5e0!3m2!1sen!2sus!4v1637722214442!5m2!1sen!2sus" allowfullscreen="" class="map"></iframe>
-			</div>
+				<div id="contact">
+					<h2>Questions or Concerns? Reach Out to Us!</h2>
+					<p>Your concerns are out priority! If any of our products are not up to your standard or if you have questions about any of our menu items contact us at any of our U.S locations.</p>
+					<h3>Send us an email! We'd love to hear from you.</h3>
+					<p><a href="mailto:smothiestation@yahoo.com" class="contact-email-link">SmoothieStation@yahoo.com</a></p>
+					<h3>Want to talk to a representative? Call us during our regular business hours (8am-8pm EST):</h3>
+					<p class="mobile-only tel-link"><a href="tel:6165557575">(616)555-7575</a></p>
+					<p class="tablet-desktop tel-num">(616)555-7575</p>
+					<p>Visit Us!:</p>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1458.771458785113!2d-85.69000189938482!3d43.00895836438742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8819aea929e78cef%3A0x4ada10e0d4d824a2!2s2505%20Alpine%20Ave%20NW%2C%20Grand%20Rapids%2C%20MI%2049544!5e0!3m2!1sen!2sus!4v1637722214442!5m2!1sen!2sus" allowfullscreen="" class="map"></iframe>
+				</div>
+
+				<div>
+					<form class="twocol-grid">
+                        <fieldset>
+                            <legend>Customer Information</legend>
+                            <label for="fName">First Name:</label>
+                            <input type="text" name="fName" id="fName" required>
+
+                            <label for="lName">Last Name:</label>
+                            <input type="text" name="lName" id="lName" required>
+
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" required>
+
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone">
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Referral Source</legend>
+                            <label for="reference">How did you find us?</label>
+                            <select name="reference" id="reference">
+                                <option value="ad">Advertisement</option>
+                                <option value="friend">Friend</option>
+                                <option value="google">Google</option>
+                                <option value="social">Social Media</option>
+                                <option value="other">Other</option>
+                            </select>
+
+                            <label for="questions">Questions?</label>
+                            <textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+                        </fieldset>
+
+                        <input type="submit" id="submit" value="Submit" class="btn">
+                    </form>
+				</div>
 			</main>
 
 			<!--Footer area for footer content-->

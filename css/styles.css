@@ -29,9 +29,9 @@ body, header, nav, main, footer, ul, li, a, h1, h2, img {
 /* Style rules for body */
 body {
 	background-color: #f5daba;
-    	width: 100%;
+    width: 100%;
    	overflow-x: hidden;
-    	transition: 0.5s;
+    transition: 0.5s;
 	font-family: Verdana, sans-serif;
 	position: absolute;
 	min-height: 100vh;	
