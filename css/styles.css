@@ -5,6 +5,15 @@ body, header, nav, main, footer, ul, li, a, h1, h2, img {
     border: 0;
 }
 
+/*Remove blue highlight on mobile tap of links*/
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
 /* Show mobile, hide desktop */
 .mobile-only {
     display: block;
