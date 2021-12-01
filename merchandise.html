@@ -7,205 +7,105 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
-    <body id="mainBody">
-		<!--
-		<div class="mobile-tablet" id="sideNav">
-			<ul>
-				<li><a href="javascript:void(0)" onclick="closeSideNav()" id="exit-button">X</a></li>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="mission.html">Our Mission</a></li>
-				<li><a href="sourcing.html">Eco-Friendly Sourcing</a></li>
-				<li><a href="catering.html">Catering Menu</a></li>
-				<li><a href="storefront.html">Storefront Menu</a></li>
-				<li><a href="nutrition.html">Nutrition</a></li>
-				<li><a href="employment.html">Work With Us</a></li>
-				<li><a href="merchandise.html">Merchandise</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-			</ul>
-		</div>
-	-->
-		<div id="contentWrapper">
-			<!--Header area for name and/or logo-->
-			<header>
-				<div id="navButtonContainer" class="mobile-tablet">
-					<img id="mobileNavBtn" src="images/menu-icon.png" alt="mobile menu button" onclick="openSideNav()"/>
-					<!--<a href="index.html"><img id="mobileLogoCenter" width="60px" height="60px" src="images/small-logo.png" alt="Smoothie Station logo"/></a>-->
-					<a href="index.html"><h1 id="mobileLogoCenter"><img src="images/small-logo.png" alt="Smoothie Station Logo"/><span class="tablet-only">Smoothie Station</span></h1></a>
-				</div>
-				
-				<div class="desktop-only">
-					<h1><img width="50" height="75" src="images/smoothie-station-logo.png" alt="Smoothie Station logo">Smoothie Station</h1>  
-				</div>
-			</header>
-
-			<!--Nav area for navigation links-->
-			<nav>
-				<div class="desktop-only">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdownBtn">About Us</a>
-							<div class="dropdownMenu">
-								<a href="mission.html" class="">Our Mission</a>
-								<a href="sourcing.html">Eco-Friendly Sourcing</a>
-							</div>
-						</li>
-						<li class="dropdown">
-							<a href="#" class="dropdownBtn">Menus</a>
-							<div class="dropdownMenu">
-								<a href="catering.html">Catering Menu</a>
-								<a href="storefront.html">Storefront Menu</a>
-							</div>
-						</li>
-						<li><a href="nutrition.html">Nutrition</a></li>
-						<li><a href="employment.html">Work With Us</a></li>
-						<li><a href="merchandise.html">Merchandise</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
-					</ul>
-				</div>
-
-				
-				<div class="mobile-tablet" id="sideNav">
-					<a href="javascript:void(0)" onclick="closeSideNav()" id="exit-button">X</a>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="mission.html">Our Mission</a></li>
-						<li><a href="sourcing.html">Eco-Friendly Sourcing</a></li>
-						<li><a href="catering.html">Catering Menu</a></li>
-						<li><a href="storefront.html">Storefront Menu</a></li>
-						<li><a href="nutrition.html">Nutrition</a></li>
-						<li><a href="employment.html">Work With Us</a></li>
-						<li><a href="merchandise.html">Merchandise</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
-					</ul>
-				</div>
+    <body>
+		<!--Header area for name and/or logo-->
+		<header>
+			<div id="navButtonContainer" class="mobile-tablet">
+				<img id="mobileNavBtn" src="images/menu-icon.png" alt="mobile menu button" onclick="openSideNav()"/>
+				<a href="index.html"><h1 id="mobileLogoCenter"><img src="images/small-logo.png" alt="Smoothie Station Logo"/><span class="tablet-only">Smoothie Station</span></h1></a>
+			</div>
 			
-			</nav>
+			<div class="desktop-only">
+				<h1><img width="50" height="75" src="images/smoothie-station-logo.png" alt="Smoothie Station logo">Smoothie Station</h1>  
+			</div>
+		</header>
 
-			<!--Main area for main page content-->
-			<main>
-				<h2>Check out our merchandise!</h2>
-				<p>
+		<!--Nav area for navigation links-->
+		<nav>
+			<div class="desktop-only">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdownBtn">About Us</a>
+						<div class="dropdownMenu">
+							<a href="mission.html" class="">Our Mission</a>
+							<a href="sourcing.html">Eco-Friendly Sourcing</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdownBtn">Menus</a>
+						<div class="dropdownMenu">
+							<a href="catering.html">Catering Menu</a>
+							<a href="storefront.html">Storefront Menu</a>
+						</div>
+					</li>
+					<li><a href="nutrition.html">Nutrition</a></li>
+					<li><a href="employment.html">Work With Us</a></li>
+					<li><a href="merchandise.html">Merchandise</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+
+			<div class="mobile-tablet" id="sideNav">
+				<a href="javascript:void(0)" onclick="closeSideNav()" id="exit-button">X</a>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="mission.html">Our Mission</a></li>
+					<li><a href="sourcing.html">Eco-Friendly Sourcing</a></li>
+					<li><a href="catering.html">Catering Menu</a></li>
+					<li><a href="storefront.html">Storefront Menu</a></li>
+					<li><a href="nutrition.html">Nutrition</a></li>
+					<li><a href="employment.html">Work With Us</a></li>
+					<li><a href="merchandise.html">Merchandise</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<!--Main area for main page content-->
+		<main>
+			<h2>Check out our merchandise!</h2>
+			<p>
 				Want to support us? You can support us by buying our merchandise so that we can expand our smoothie operation by opening up a new shop or bringing in new smoothie options for our customers!
-				</p>
-				
-				<div>
+			</p>
 			
-					<figure class="frame">
-						<img src="images/t-shirt.png" alt="T-Shirt" width="600" height="550"></a>
-						<figcaption class="pic-text">T-Shirt</figcaption>
-					</figure>
-					
-					<fieldset>
-						<legend>Size and Quantity</legend>
-						
-						<label for="size">Size:</label>
-						<select name="sizes" id="sizes">
-							<option value="blank"></option>
-							<option value="xs">Xtra Small</option>
-							<option value="s">Small</option>
-							<option value="m">Medium</option>
-							<option value="l">Large</option>
-							<option value="xl">Xtra Large</option>
-						</select>
-						
-						<label for="quantity">Quantity:</label>
-						<input type="text" name="quantity" id="quantity" required>
-					
-					</fieldset>
-					
-					<figure class="frame">
-						<img src="images/crewneck.png" alt="Crewneck" width="600" height="600"></a>
-						<figcaption class="pic-text">Crewneck Sweatshirt</figcaption>
-					</figure>
-					
-					<fieldset>
-						<legend>Size and Quantity</legend>
-						
-						<label for="size">Size:</label>
-						<select name="sizes" id="sizes">
-							<option value="blank"></option>
-							<option value="xs">Xtra Small</option>
-							<option value="s">Small</option>
-							<option value="m">Medium</option>
-							<option value="l">Large</option>
-							<option value="xl">Xtra Large</option>
-						</select>
-						
-						<label for="quantity">Quantity:</label>
-						<input type="text" name="quantity" id="quantity" required>
-					
-					</fieldset>
-					
-					<figure class="frame">
-						<img src="images/coffee-mug.png" alt="Coffee Mug" width="600" height="425"></a>
-						<figcaption class="pic-text">Coffee Mug</figcaption>
-					</figure>
-					
-					<fieldset>
-						<legend>Quantity</legend>
-						
-						<label for="quantity">Quantity:</label>
-						<input type="text" name="quantity" id="quantity" required>
-					
-					</fieldset>
-					
-					<figure class="frame">
-						<img src="images/water-bottle.png" alt="Water Bottle" width="600" height="500"></a>
-						<figcaption class="pic-text">Smoothie Station Water Bottle</figcaption>
-					</figure>
-					
-					<fieldset>
-						<legend>Quantity</legend>
-						
-						<label for="quantity">Quantity:</label>
-						<input type="text" name="quantity" id="quantity" required>
-					
-					</fieldset>
-					
-					<figure class="frame">
-						<img src="images/smoothie-cup.png" alt="Smoothie Cup" width="600" height="515"></a>
-						<figcaption class="pic-text">Smoothie Station Smoothie Cup</figcaption>
-					</figure>
-					
-					<fieldset>
-						<legend>Quantity</legend>
-						
-						<label for="quantity">Quantity:</label>
-						<input type="text" name="quantity" id="quantity" required>
-					
-					</fieldset>
+			<div class="threecol-grid">
+				<article class="frame">
+					<img src="images/t-shirt.png" alt="T-Shirt"/>
+				</article>
 				
-					<figure class="frame">
-						<img src="images/gift-card.png" alt="Gift Card" width="600" height="400"></a>
-						<figcaption class="pic-text">Gift Card</figcaption>
-					</figure>
-					
-					<fieldset>
-						<legend>Quantity</legend>
-						
-						<label for="amount">Amount on Card:</label>
-						<input type="text" name="quantity" id="quantity" required>
-					
-					</fieldset>
-					
-					<input type="submit" id="submit" value="Submit" class="btn">
+				<article class="frame">
+					<img src="images/crewneck.png" alt="Crewneck"/>
+				</article>
 				
-				</div>
+				<article class="frame">
+					<img src="images/coffee-mug.png" alt="Coffee Mug"/>
+				</article>
 				
-			</main>
+				<article class="frame">
+					<img src="images/water-bottle.png" alt="Water Bottle"/>
+				</article>
+				
+				<article class="frame">
+					<img src="images/smoothie-cup.png" alt="Smoothie Cup"/>
+				</article>
+				
+				<article class="frame">
+					<img src="images/gift-card.png" alt="Gift Card"/>
+				</article>
+			</div>
+		</main>
 
-			<!--Footer area for footer content-->
-			<footer>
-				<p>
-					&#169; Copyright 2021. All Rights Reserved.
-				</p>
-				<p>
-					<!--Example email that is hopefully bogus and not real-->
-					SmoothieStation@yahoo.com
-				</p>
-			</footer>
-			<script type="text/javascript" src="scripts/script.js"></script>
-		</div>
+		<!--Footer area for footer content-->
+		<footer>
+			<p>
+				&#169; Copyright 2021. All Rights Reserved.
+			</p>
+			<p>
+				<!--Example email that is hopefully bogus and not real-->
+				SmoothieStation@yahoo.com
+			</p>
+		</footer>
+		<script src="scripts/script.js"></script>
     </body>
 </html>
