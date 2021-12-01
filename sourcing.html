@@ -1,7 +1,3 @@
-<!--
-    sourcing.html
--->
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -11,93 +7,76 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
-    <body id="mainBody">
-		<!--
-		<div class="mobile-tablet" id="sideNav">
-			<ul>
-				<li><a href="javascript:void(0)" onclick="closeSideNav()" id="exit-button">X</a></li>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="mission.html">Our Mission</a></li>
-				<li><a href="sourcing.html">Eco-Friendly Sourcing</a></li>
-				<li><a href="catering.html">Catering Menu</a></li>
-				<li><a href="storefront.html">Storefront Menu</a></li>
-				<li><a href="nutrition.html">Nutrition</a></li>
-				<li><a href="employment.html">Work With Us</a></li>
-				<li><a href="merchandise.html">Merchandise</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-			</ul>
-		</div>
-	-->
-		<div id="contentWrapper">
-			<!--Header area for name and/or logo-->
-			<header>
-				<div id="navButtonContainer" class="mobile-tablet">
-					<img id="mobileNavBtn" src="images/menu-icon.png" alt="mobile menu button" onclick="openSideNav()"/>
-					<!--<a href="index.html"><img id="mobileLogoCenter" width="60px" height="60px" src="images/small-logo.png" alt="Smoothie Station logo"/></a>-->
-					<a href="index.html"><h1 id="mobileLogoCenter"><img src="images/small-logo.png" alt="Smoothie Station Logo"/><span class="tablet-only">Smoothie Station</span></h1></a>
-				</div>
-				
-				<div class="desktop-only">
-					<h1><img width="50" height="75" src="images/smoothie-station-logo.png" alt="Smoothie Station logo">Smoothie Station</h1>  
-				</div>
-			</header>
-
-			<!--Nav area for navigation links-->
-			<nav>
-				<div class="desktop-only">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdownBtn">About Us</a>
-							<div class="dropdownMenu">
-								<a href="mission.html" class="">Our Mission</a>
-								<a href="sourcing.html">Eco-Friendly Sourcing</a>
-							</div>
-						</li>
-						<li class="dropdown">
-							<a href="#" class="dropdownBtn">Menus</a>
-							<div class="dropdownMenu">
-								<a href="catering.html">Catering Menu</a>
-								<a href="storefront.html">Storefront Menu</a>
-							</div>
-						</li>
-						<li><a href="nutrition.html">Nutrition</a></li>
-						<li><a href="employment.html">Work With Us</a></li>
-						<li><a href="merchandise.html">Merchandise</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
-					</ul>
-				</div>
-
-				
-				<div class="mobile-tablet" id="sideNav">
-					<a href="javascript:void(0)" onclick="closeSideNav()" id="exit-button">X</a>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="mission.html">Our Mission</a></li>
-						<li><a href="sourcing.html">Eco-Friendly Sourcing</a></li>
-						<li><a href="catering.html">Catering Menu</a></li>
-						<li><a href="storefront.html">Storefront Menu</a></li>
-						<li><a href="nutrition.html">Nutrition</a></li>
-						<li><a href="employment.html">Work With Us</a></li>
-						<li><a href="merchandise.html">Merchandise</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
-					</ul>
-				</div>
+    <body>
+		<!--Header area for name and/or logo-->
+		<header>
+			<div id="navButtonContainer" class="mobile-tablet">
+				<img id="mobileNavBtn" src="images/menu-icon.png" alt="mobile menu button" onclick="openSideNav()"/>
+				<a href="index.html"><h1 id="mobileLogoCenter"><img src="images/small-logo.png" alt="Smoothie Station Logo"/><span class="tablet-only">Smoothie Station</span></h1></a>
+			</div>
 			
-			</nav>
+			<div class="desktop-only">
+				<h1><img width="50" height="75" src="images/smoothie-station-logo.png" alt="Smoothie Station logo">Smoothie Station</h1>  
+			</div>
+		</header>
 
-			<!--Main area for main page content-->
-			<main class="grid">
+		<!--Nav area for navigation links-->
+		<nav>
+			<div class="desktop-only">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdownBtn">About Us</a>
+						<div class="dropdownMenu">
+							<a href="mission.html" class="">Our Mission</a>
+							<a href="sourcing.html">Eco-Friendly Sourcing</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdownBtn">Menus</a>
+						<div class="dropdownMenu">
+							<a href="catering.html">Catering Menu</a>
+							<a href="storefront.html">Storefront Menu</a>
+						</div>
+					</li>
+					<li><a href="nutrition.html">Nutrition</a></li>
+					<li><a href="employment.html">Work With Us</a></li>
+					<li><a href="merchandise.html">Merchandise</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+			
+			<div class="mobile-tablet" id="sideNav">
+				<a href="javascript:void(0)" onclick="closeSideNav()" id="exit-button">X</a>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="mission.html">Our Mission</a></li>
+					<li><a href="sourcing.html">Eco-Friendly Sourcing</a></li>
+					<li><a href="catering.html">Catering Menu</a></li>
+					<li><a href="storefront.html">Storefront Menu</a></li>
+					<li><a href="nutrition.html">Nutrition</a></li>
+					<li><a href="employment.html">Work With Us</a></li>
+					<li><a href="merchandise.html">Merchandise</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<!--Main area for main page content-->
+		<main>
+			<h2>Sourcing</h2>
+			<div class="threecol-grid">
 				<article>
 					<h3>Freshness Is Our Priority</h3>
 					<img src="images/fruitfarm.jpg" alt="Overhead picture of a fruit orchard">
-					<p>We only use locally sourced non-gmo ingredients in our smothies. Some of our sources include: </p>
+					<p>We only use locally sourced non-gmo ingredients in our smoothies. Some of our sources include: </p>
 					<ul>
-						<li><a href="mailto:hillshire@fakefarm.net">Hillshire Farms</a></li>
-						<li><a href="mailto:creston@fakeorchard.net">Creston Apple Orchards</a></li>
-						<li><a href="mailto:rise@fakeranch.net">Rise Ranch</a></li>
+						<li><a href="https://hillshirefarm.com">Hillshire Farms</a></li>
+						<li><a href="https://www.michiganapples.com/">Michigan Apples</a></li>
+						<li><a href="https://www.cedarcrestdelivers.com/">Cedar Crest Dairy</a></li>
 					</ul>
 				</article>
+
 				<article>
 					<h3>Fresh, Never Frozen. But Why Eat Fresh?</h3>
 					<img src="images/freshfruit.jpg" alt="Picture of fresh fruits">
@@ -108,6 +87,7 @@
 						<li>Promoting gut health</li>
 					</ul>
 				</article>
+				
 				<article>
 				<h3>What Are GMO's And Why Should I Avoid Them?</h3>
 					<img src="images/GMO.jpg" alt="Picture of a tomato being injected with a suringe surounded by double helix's ">
@@ -118,19 +98,19 @@
 						<li>Cancer</li>
 					</ul>
 				</article>
-			</main>
+			</div>
+		</main>
 
-			<!--Footer area for footer content-->
-			<footer>
-				<p>
-					&#169; Copyright 2021. All Rights Reserved.
-				</p>
-				<p>
-					<!--Example email that is hopefully bogus and not real-->
-					SmoothieStation@yahoo.com
-				</p>
-			</footer>
-			<script type="text/javascript" src="scripts/script.js"></script>
-		</div>
+		<!--Footer area for footer content-->
+		<footer>
+			<p>
+				&#169; Copyright 2021. All Rights Reserved.
+			</p>
+			<p>
+				<!--Example email that is hopefully bogus and not real-->
+				SmoothieStation@yahoo.com
+			</p>
+		</footer>
+		<script type="text/javascript" src="scripts/script.js"></script>
     </body>
 </html>
