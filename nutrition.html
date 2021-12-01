@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-    Template file for the CIS 238 Group Project
--->
-
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Smoothie Station</title>
@@ -13,132 +8,106 @@
     </head>
 
     <body id="mainBody">
-		<!--
-		<div class="mobile-tablet" id="sideNav">
-			<ul>
-				<li><a href="javascript:void(0)" onclick="closeSideNav()" id="exit-button">X</a></li>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="mission.html">Our Mission</a></li>
-				<li><a href="sourcing.html">Eco-Friendly Sourcing</a></li>
-				<li><a href="catering.html">Catering Menu</a></li>
-				<li><a href="storefront.html">Storefront Menu</a></li>
-				<li><a href="nutrition.html">Nutrition</a></li>
-				<li><a href="employment.html">Work With Us</a></li>
-				<li><a href="merchandise.html">Merchandise</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-			</ul>
-		</div>
-	-->
-		<div id="contentWrapper">
-			<!--Header area for name and/or logo-->
-			<header>
-				<div id="navButtonContainer" class="mobile-tablet">
-					<img id="mobileNavBtn" src="images/menu-icon.png" alt="mobile menu button" onclick="openSideNav()"/>
-					<!--<a href="index.html"><img id="mobileLogoCenter" width="60px" height="60px" src="images/small-logo.png" alt="Smoothie Station logo"/></a>-->
-					<a href="index.html"><h1 id="mobileLogoCenter"><img src="images/small-logo.png" alt="Smoothie Station Logo"/><span class="tablet-only">Smoothie Station</span></h1></a>
-				</div>
-				
-				<div class="desktop-only">
-					<h1><img width="50" height="75" src="images/smoothie-station-logo.png" alt="Smoothie Station logo">Smoothie Station</h1>  
-				</div>
-			</header>
-
-			<!--Nav area for navigation links-->
-			<nav>
-				<div class="desktop-only">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdownBtn">About Us</a>
-							<div class="dropdownMenu">
-								<a href="mission.html" class="">Our Mission</a>
-								<a href="sourcing.html">Eco-Friendly Sourcing</a>
-							</div>
-						</li>
-						<li class="dropdown">
-							<a href="#" class="dropdownBtn">Menus</a>
-							<div class="dropdownMenu">
-								<a href="catering.html">Catering Menu</a>
-								<a href="storefront.html">Storefront Menu</a>
-							</div>
-						</li>
-						<li><a href="nutrition.html">Nutrition</a></li>
-						<li><a href="employment.html">Work With Us</a></li>
-						<li><a href="merchandise.html">Merchandise</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
-					</ul>
-				</div>
-
-				
-				<div class="mobile-tablet" id="sideNav">
-					<a href="javascript:void(0)" onclick="closeSideNav()" id="exit-button">X</a>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="mission.html">Our Mission</a></li>
-						<li><a href="sourcing.html">Eco-Friendly Sourcing</a></li>
-						<li><a href="catering.html">Catering Menu</a></li>
-						<li><a href="storefront.html">Storefront Menu</a></li>
-						<li><a href="nutrition.html">Nutrition</a></li>
-						<li><a href="employment.html">Work With Us</a></li>
-						<li><a href="merchandise.html">Merchandise</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
-					</ul>
-				</div>
+		<!--Header area for name and/or logo-->
+		<header>
+			<div id="navButtonContainer" class="mobile-tablet">
+				<img id="mobileNavBtn" src="images/menu-icon.png" alt="mobile menu button" onclick="openSideNav()"/>
+				<a href="index.html"><h1 id="mobileLogoCenter"><img src="images/small-logo.png" alt="Smoothie Station Logo"/><span class="tablet-only">Smoothie Station</span></h1></a>
+			</div>
 			
-			</nav>
+			<div class="desktop-only">
+				<h1><img width="50" height="75" src="images/smoothie-station-logo.png" alt="Smoothie Station logo">Smoothie Station</h1>  
+			</div>
+		</header>
 
-			<!--Main area for main page content-->
-			<main>
-				<h2>Eat Fresh With Smoothie Station!</h2>
-				<p>We cater to a variety of diets and are an allergen friendly facility! If you have any questions contact any of our 20 US locations during our regular business hours (8am-8pm EST).</p>
-				
-					<div id="grid">
-						<article>
-							<h3>Gluten Free Options</h3>
-							<p>All menu items can be made gluten free. If you have a gluten allergy ask one of our employees to use the allergen friendly equipment.</p>
-							<p>If an item is already gluten free it will be listed on our menu with a (G) beside the item name<p>
-						</article>
-						
-						<article>
-							<h3>Vegan and Vegetarian Options</h3>
-							<p>Any non-vegan or vegetarian ingredients will be listed alongside menu items for transparency. Here at Smoothie Station we are committed to serving our customers and meeting all dietary needs. In addition vegan items are marked with a (V) and vegetarian items are marked with a (VG).</p>
-							<p>For questions about our ethical sourcing and distribution ask any of our 20 US locations for further details. All products used in our smoothies are cruelty free</p>  
-						</article>
-						
-						<article>
-							<h3>Allergens</h3>
-							<p>If you have any food alleries to our menu items let one of our employees know and they will go through our allergen procedure. We take allerens very seriously here at Smoothie Station and make sure new gloves are used and have separate allergen friendly machines and workspaces.</p>
-								<p>Allergens used at our locations:</p>
-								<ul>
-									<li>dairy</li>
-									<li>gluten</li>
-									<li>soy</li>
-								</ul>
-								
-								<p>Although we have a strong commitment to catering to customers with food allergies there is always a risk of cross-contamination and suggest that those with severe food allergies order Smoothie Station menu items at their own risk.</p>
-							</article>
-								
-							<article>
-								<h3>Our Commitment to all Organic!</h3>
-								<p>At Smoothie Station we care about what we are serving in our products which is why we are committed all organic!</p>
-								<p>We believe that in addition to the health benefits to organic produce, it also enhances our smoothies taste! Eating fresh, locally sourced fresh fruit will help give you the energy you need to get out and take on the day and fuel you for your next adventure.</p>
-							</article>
-					</div>
-								
-							
-			</main>
+		<!--Nav area for navigation links-->
+		<nav>
+			<div class="desktop-only">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdownBtn">About Us</a>
+						<div class="dropdownMenu">
+							<a href="mission.html" class="">Our Mission</a>
+							<a href="sourcing.html">Eco-Friendly Sourcing</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdownBtn">Menus</a>
+						<div class="dropdownMenu">
+							<a href="catering.html">Catering Menu</a>
+							<a href="storefront.html">Storefront Menu</a>
+						</div>
+					</li>
+					<li><a href="nutrition.html">Nutrition</a></li>
+					<li><a href="employment.html">Work With Us</a></li>
+					<li><a href="merchandise.html">Merchandise</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+			
+			<div class="mobile-tablet" id="sideNav">
+				<a href="javascript:void(0)" onclick="closeSideNav()" id="exit-button">X</a>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="mission.html">Our Mission</a></li>
+					<li><a href="sourcing.html">Eco-Friendly Sourcing</a></li>
+					<li><a href="catering.html">Catering Menu</a></li>
+					<li><a href="storefront.html">Storefront Menu</a></li>
+					<li><a href="nutrition.html">Nutrition</a></li>
+					<li><a href="employment.html">Work With Us</a></li>
+					<li><a href="merchandise.html">Merchandise</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</nav>
 
-			<!--Footer area for footer content-->
-			<footer>
-				<p>
-					&#169; Copyright 2021. All Rights Reserved.
-				</p>
-				<p>
-					<!--Example email that is hopefully bogus and not real-->
-					SmoothieStation@yahoo.com
-				</p>
-			</footer>
-			<script type="text/javascript" src="scripts/script.js"></script>
-		</div>
+		<!--Main area for main page content-->
+		<main>
+			<h2>Eat Fresh With Smoothie Station!</h2>
+			<p>We cater to a variety of diets and are an allergen-friendly facility! If you have any questions contact us during our regular business hours.</p>
+			
+			<article>
+				<h3>Gluten Free Options</h3>
+				<p>All menu items can be made gluten free. If you have a gluten allergy ask one of our employees to use the allergen friendly equipment.</p>
+				<p>If an item is already gluten free it will be listed on our menu with a (G) beside the item name.<p>
+			</article>
+			
+			<article>
+				<h3>Vegan and Vegetarian Options</h3>
+				<p>Any non-vegan or vegetarian ingredients will be listed alongside menu items for transparency. Here at Smoothie Station we are committed to serving our customers and meeting all dietary needs. In addition vegan items are marked with a (V) and vegetarian items are marked with a (VG).</p>
+				<p>For questions about our ethical sourcing and distribution contact us for further details. All products used in our smoothies are cruelty free.</p>  
+			</article>
+			
+			<article>
+				<h3>Allergens</h3>
+				<p>If you have any food allergies to our menu items let one of our employees know and they will go through our allergen procedure. We take allergies very seriously here at Smoothie Station and make sure new gloves are used and we have separate allergen friendly machines and workspaces.</p>
+				<p>Allergens used at our locations:</p>
+				<ul>
+					<li>dairy</li>
+					<li>gluten</li>
+					<li>soy</li>
+				</ul>
+				<p>Although we have a strong commitment to catering to customers with food allergies there is always a risk of cross-contamination and suggest that those with severe food allergies order Smoothie Station menu items at their own risk.</p>
+			</article>
+					
+			<article>
+				<h3>Our Commitment to all Organic!</h3>
+				<p>At Smoothie Station we care about what we are serving in our products which is why we are committed all organic!</p>
+				<p>We believe that in addition to the health benefits of organic produce, it also enhances our smoothies' taste! Eating fresh, locally sourced fresh fruit will help give you the energy you need to get out and take on the day and fuel you for your next adventure.</p>
+			</article>	
+		</main>
+
+		<!--Footer area for footer content-->
+		<footer>
+			<p>
+				&#169; Copyright 2021. All Rights Reserved.
+			</p>
+			<p>
+				<!--Example email that is hopefully bogus and not real-->
+				SmoothieStation@yahoo.com
+			</p>
+		</footer>
+		<script type="text/javascript" src="scripts/script.js"></script>
     </body>
 </html>

@@ -5,12 +5,8 @@ body, header, nav, main, footer, ul, li, a, h1, h2, img {
     border: 0;
 }
 
-/*Remove blue highlight on mobile tap of links*/
-input,
-textarea,
-button,
-select,
-a {
+/* Remove blue highlight on mobile tap of links */
+input, textarea, button, select, a {
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -37,7 +33,6 @@ a {
 
 /* Style rules for body */
 body {
-	background-color: #f5daba;
     width: 100%;
    	overflow-x: hidden;
     transition: 0.5s;
@@ -46,18 +41,24 @@ body {
 	min-height: 100vh;	
 }
 
+/*
 #contentWrapper {
     overflow-x: hidden;
     transition: 0.5s;
     width: 100%;
 	padding-bottom: 80px;
 }
+*/
 
 /* Style rules for header */
 header {
 	background-image: linear-gradient(to bottom right, #a7f5a4, #16c25e, #216628);
 	height: 100%;
 	min-height: 60px;
+}
+
+header h1 {
+	color: #ffffff;
 }
 
 #navButtonContainer {
@@ -93,7 +94,7 @@ header {
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color: #f5daba;
+	background-color: #90ee90;
 	overflow-x: hidden;
 	transition: 0.5s;
 	padding-top: 60px;
@@ -141,11 +142,11 @@ nav ul a {
 /* Style rules for main area */
 main {
     padding: 2%;
-	margin: 1%;
-	margin-bottom: 60px;
+	background: linear-gradient(#FFFFB0, #90ee90);
+	margin-bottom: 80px;
 }
 
-main h2 {
+main h2, main h3 {
 	color: #784212;
 }
 
@@ -153,11 +154,10 @@ main h2 {
 #catering{
 	text-align: center;
 	height: auto;
-	margin: 2%;
 }
 
 #menu{
-	background: linear-gradient(#FFFFB0, #257A41);
+	/*background: linear-gradient(#FFFFB0, #257A41);*/
 	margin: 1% auto;
 	padding: 2%;
 }
@@ -257,13 +257,14 @@ main h2 {
 }
 
 article {
-    border: 5px solid #ffffff;
-    color: #784212;
+    /*border: 5px solid #ffffff;*/
+    /*color: #784212;*/
     padding: 5px;
 }
 
 article h3{
-	text-align: center;
+	/*text-align: center;*/
+	 
 }
 
 article img{
@@ -275,18 +276,21 @@ article ul {
     margin-left: 20px;
 }
 
-article:nth-of-type(2){
-	background-color: rgba(204, 204, 204, 0.3);
+.badgeImg {
+	display: block;
+    width: 80%;
+	max-width: 600px;
+    margin: 0 auto;
 }
 
-.homeImg {
-    width: 90%;
-    margin: 0 auto;
+.ul-leftmarg {
+	margin-left: 20px;
 }
 
 /* Style rules for footer area */
 footer {
-	background-image: linear-gradient(to bottom right, #a7f5a4, #16c25e, #216628);
+	/*background-image: linear-gradient(to bottom right, #a7f5a4, #16c25e, #216628);*/
+	background-image: linear-gradient(to bottom right, #90ee90, #16c25e, #216628);
 	min-height: 60px;
 	position: absolute;
 	bottom: 0;
@@ -355,7 +359,7 @@ footer {
         width: 450px;
         margin: auto;
         text-decoration: none;
-        color: #784212;
+        color: #ffffff;
         font-size: 36px;
     }
 
@@ -437,6 +441,7 @@ footer {
     /* CSS Rules for Desktop Nav */
     nav {
         padding: 1%;
+		background-color: #90ee90;
     }
 
     .mobileNavRow {
@@ -458,14 +463,14 @@ footer {
     }
     
     nav li a:hover {
-        background-color: #ffffff;
+        background-color: #f0f0f0;
     }
     
     /* CSS Rules for dropdown nav menus */
     .dropdownMenu {
         display: none;
         position: absolute;
-        background-color: #ffffff;
+        background-color: #f0f0f0;
         min-width: 160px;
         padding: 0em;
         z-index: 1;
@@ -485,7 +490,7 @@ footer {
     }
     
     .dropdown:hover .dropdownBtn {
-        background-color: #ffffff;
+        background-color: #f0f0f0;
     }
 	
 	/*Catering desktop rules*/
