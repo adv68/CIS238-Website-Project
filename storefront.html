@@ -1,7 +1,3 @@
-<!--
-    Template file for the CIS 238 Group Project
--->
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -11,207 +7,145 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
-    <body id="mainBody">
-		<!--
-		<div class="mobile-tablet" id="sideNav">
-			<ul>
-				<li><a href="javascript:void(0)" onclick="closeSideNav()" id="exit-button">X</a></li>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="mission.html">Our Mission</a></li>
-				<li><a href="sourcing.html">Eco-Friendly Sourcing</a></li>
-				<li><a href="catering.html">Catering Menu</a></li>
-				<li><a href="storefront.html">Storefront Menu</a></li>
-				<li><a href="nutrition.html">Nutrition</a></li>
-				<li><a href="employment.html">Work With Us</a></li>
-				<li><a href="merchandise.html">Merchandise</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-			</ul>
-		</div>
-	-->
-		<div id="contentWrapper">
-			<!--Header area for name and/or logo-->
-			<header>
-				<div id="navButtonContainer" class="mobile-tablet">
-					<img id="mobileNavBtn" src="images/menu-icon.png" alt="mobile menu button" onclick="openSideNav()"/>
-					<!--<a href="index.html"><img id="mobileLogoCenter" width="60px" height="60px" src="images/small-logo.png" alt="Smoothie Station logo"/></a>-->
-					<a href="index.html"><h1 id="mobileLogoCenter"><img src="images/small-logo.png" alt="Smoothie Station Logo"/><span class="tablet-only">Smoothie Station</span></h1></a>
-				</div>
-				
-				<div class="desktop-only">
-					<h1><img width="50" height="75" src="images/smoothie-station-logo.png" alt="Smoothie Station logo">Smoothie Station</h1>  
-				</div>
-			</header>
-
-			<!--Nav area for navigation links-->
-			<nav>
-				<div class="desktop-only">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdownBtn">About Us</a>
-							<div class="dropdownMenu">
-								<a href="mission.html" class="">Our Mission</a>
-								<a href="sourcing.html">Eco-Friendly Sourcing</a>
-							</div>
-						</li>
-						<li class="dropdown">
-							<a href="#" class="dropdownBtn">Menus</a>
-							<div class="dropdownMenu">
-								<a href="catering.html">Catering Menu</a>
-								<a href="storefront.html">Storefront Menu</a>
-							</div>
-						</li>
-						<li><a href="nutrition.html">Nutrition</a></li>
-						<li><a href="employment.html">Work With Us</a></li>
-						<li><a href="merchandise.html">Merchandise</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
-					</ul>
-				</div>
-
-				
-				<div class="mobile-tablet" id="sideNav">
-					<a href="javascript:void(0)" onclick="closeSideNav()" id="exit-button">X</a>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="mission.html">Our Mission</a></li>
-						<li><a href="sourcing.html">Eco-Friendly Sourcing</a></li>
-						<li><a href="catering.html">Catering Menu</a></li>
-						<li><a href="storefront.html">Storefront Menu</a></li>
-						<li><a href="nutrition.html">Nutrition</a></li>
-						<li><a href="employment.html">Work With Us</a></li>
-						<li><a href="merchandise.html">Merchandise</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
-					</ul>
-				</div>
+    <body>
+		<!--Header area for name and/or logo-->
+		<header>
+			<div id="navButtonContainer" class="mobile-tablet">
+				<img id="mobileNavBtn" src="images/menu-icon.png" alt="mobile menu button" onclick="openSideNav()"/>
+				<a href="index.html"><h1 id="mobileLogoCenter"><img src="images/small-logo.png" alt="Smoothie Station Logo"/><span class="tablet-only">Smoothie Station</span></h1></a>
+			</div>
 			
-			</nav>
+			<div class="desktop-only">
+				<h1><img width="50" height="75" src="images/smoothie-station-logo.png" alt="Smoothie Station logo">Smoothie Station</h1>  
+			</div>
+		</header>
 
-			<!--Main area for main page content-->
-			<main>
-				<!--
-				<div class="twocol-grid">
-					<h2>Smoothie Station Menu</h2>
-					<span class="tablet-desktop"> </span> </!-- Whitespace for proper grid layout --/>
-					<article>
-						<h3>Strawberry Banana (GF)(V)</h3>
-						<ul>
-							<li>Strawberries</li>
-							<li>Bananas</li>
-							<li>Non-fat Yogurt</li>
-						</ul>
-					</article>
-					<article>
-						<h3>Wild Berry (V)</h3>
-						<ul>
-							<li>Raspberries</li>
-							<li>Strawberries</li>
-							<li>Blueberries</li>
-							<li>Blackberries</li>
-						</ul>
-					</article>
-					<article>
-						<h3>Peanut Butter Banana (V)</h3>
-						<ul>
-							<li>Bananas</li>
-							<li>Peanut Butter</li>
-							<li>Non-fat Yogurt</li>
-						</ul>
-					</article>
-					<article>
-						<h3>Mango (GF)(V)</h3>
-						<ul>
-							<li>Mangoes</li>
-							<li>Pineapple</li>
-							<li>Non-fat Yogurt</li>
-						</ul>
-					</article>
-				</div>
-			-->
-				<div id="menu" class="round">
+		<!--Nav area for navigation links-->
+		<nav>
+			<div class="desktop-only">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdownBtn">About Us</a>
+						<div class="dropdownMenu">
+							<a href="mission.html" class="">Our Mission</a>
+							<a href="sourcing.html">Eco-Friendly Sourcing</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdownBtn">Menus</a>
+						<div class="dropdownMenu">
+							<a href="catering.html">Catering Menu</a>
+							<a href="storefront.html">Storefront Menu</a>
+						</div>
+					</li>
+					<li><a href="nutrition.html">Nutrition</a></li>
+					<li><a href="employment.html">Work With Us</a></li>
+					<li><a href="merchandise.html">Merchandise</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+			
+			<div class="mobile-tablet" id="sideNav">
+				<a href="javascript:void(0)" onclick="closeSideNav()" id="exit-button">X</a>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="mission.html">Our Mission</a></li>
+					<li><a href="sourcing.html">Eco-Friendly Sourcing</a></li>
+					<li><a href="catering.html">Catering Menu</a></li>
+					<li><a href="storefront.html">Storefront Menu</a></li>
+					<li><a href="nutrition.html">Nutrition</a></li>
+					<li><a href="employment.html">Work With Us</a></li>
+					<li><a href="merchandise.html">Merchandise</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<!--Main area for main page content-->
+		<main>
+			<div id="menu">
+				<div id="menu-items" class="threecol-grid">
 					
-					<div id="menu-items" class="menu-grid">
+					<figure>
+						<div class="figure-data">
+							<img src="images/strawberry.jpg" alt="#"/>
+							<figcaption>Strawberry Banana</figcaption>
+						</div>
 						
-						<figure>
-							<div class="figure-data">
-								<img src="images/strawberry.jpg" alt="#"/>
-								<figcaption>Strawberry Banana</figcaption>
-							</div>
-							
-							<div class="catering-desc">
-								<p> This is a basic description of the food that is presented</p>
-							</div>
-						</figure>
+						<div class="catering-desc">
+							<p>Strawberry Banana Smoothies are made with fresh strawberries and bananas.</p>
+						</div>
+					</figure>
+					
+					<figure>
+						<div class="figure-data">
+							<img src="images/wildberry.jpg" alt="#"/>
+							<figcaption>Wild Berry</figcaption>
+						</div>
 						
-						<figure>
-							<div class="figure-data">
-								<img src="images/wildberry.jpg" alt="#"/>
-								<figcaption>Wild Berry</figcaption>
-							</div>
-							
-							<div class="catering-desc">
-								<p> This is a basic description of the food that is presented</p>
-							</div>
-						</figure>
+						<div class="catering-desc">
+							<p>Wild Berry Smoothies are made with and assortment of fresh berries including raspberries, strawberries, blackberries, and blueberries.</p>
+						</div>
+					</figure>
+					
+					<figure>
+						<div class="figure-data">
+							<img src="images/peanut-butter.jpg" alt="#"/>
+							<figcaption>PB &amp; Banana</figcaption>
+						</div>
 						
-						<figure>
-							<div class="figure-data">
-								<img src="images/peanut-butter.jpg" alt="#"/>
-								<figcaption>PB &amp Banana</figcaption>
-							</div>
-							
-							<div class="catering-desc">
-								<p> This is a basic description of the food that is presented</p>
-							</div>
-						</figure>
+						<div class="catering-desc">
+							<p>PB &amp; Banana Smoothies are made with peanut butter and bananas.</p>
+						</div>
+					</figure>
+					
+					<figure>
+						<div class="figure-data">
+							<img src="images/mango.jpg" alt="#"/>
+							<figcaption>Mango</figcaption>
+						</div>
 						
-						<figure>
-							<div class="figure-data">
-								<img src="images/mango.jpg" alt="#"/>
-								<figcaption>Mango</figcaption>
-							</div>
-							
-							<div class="catering-desc">
-								<p> This is a basic description of the food that is presented</p>
-							</div>
-						</figure>
+						<div class="catering-desc">
+							<p>Mango Smoothies are made with fresh mangoes and pineapple.</p>
+						</div>
+					</figure>
+					
+					<figure>
+						<div class="figure-data">
+							<img src="images/salad.jpg" alt="#"/>
+							<figcaption>Greek Salad</figcaption>
+						</div>
 						
-						<figure>
-							<div class="figure-data">
-								<img src="images/salad.jpg" alt="#"/>
-								<figcaption>Greek Salad</figcaption>
-							</div>
-							
-							<div class="catering-desc">
-								<p> This is a basic description of the food that is presented</p>
-							</div>
-						</figure>
+						<div class="catering-desc">
+							<p>Greek Salads are made from lettuce, tomatoes, cucumbers, olives, and feta cheese.</p>
+						</div>
+					</figure>
+					
+					<figure>
+						<div class="figure-data">
+							<img src="images/sandwich.jpg" alt="#"/>
+							<figcaption>Sandwiches</figcaption>
+						</div>
 						
-						<figure>
-							<div class="figure-data">
-								<img src="images/sandwich.jpg" alt="#"/>
-								<figcaption>Sandwiches</figcaption>
-							</div>
-							
-							<div class="catering-desc">
-								<p> This is a basic description of the food that is presented</p>
-							</div>
-						</figure>
-						
-					</div>
-				</div>				
-			</main>
+						<div class="catering-desc">
+							<p>The Smoothie Station has a variety of sandwiches including subs and grilled cheese.</p>
+						</div>
+					</figure>
+				</div>
+			</div>				
+		</main>
 
-			<!--Footer area for footer content-->
-			<footer>
-				<p>
-					&#169; Copyright 2021. All Rights Reserved.
-				</p>
-				<p>
-					<!--Example email that is hopefully bogus and not real-->
-					SmoothieStation@yahoo.com
-				</p>
-			</footer>
-			<script type="text/javascript" src="scripts/script.js"></script>
-		</div>
+		<!--Footer area for footer content-->
+		<footer>
+			<p>
+				&#169; Copyright 2021. All Rights Reserved.
+			</p>
+			<p>
+				<!--Example email that is hopefully bogus and not real-->
+				SmoothieStation@yahoo.com
+			</p>
+		</footer>
+		<script type="text/javascript" src="scripts/script.js"></script>
     </body>
 </html>
