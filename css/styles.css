@@ -58,6 +58,11 @@ header {
 
 header h1 {
 	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header a {
+	text-decoration: none;
 }
 
 #navButtonContainer {
