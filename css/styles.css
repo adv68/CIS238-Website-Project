@@ -178,6 +178,7 @@ main h2, main h3 {
 #menu-items figure{
 	position: relative;
 	text-align: center;
+	margin: 2px;
 }
 
 #menu-items figcaption{
@@ -243,6 +244,7 @@ main h2, main h3 {
 
 /* display grid as one column on mobile */
 
+/*
 .twocol-grid {
     display: grid;
     grid-template-columns: 100%;
@@ -256,6 +258,7 @@ main h2, main h3 {
     gap: 1%;
 	margin-bottom: 60px;
 }
+*/
 
 article {
     padding: 5px;
@@ -419,11 +422,19 @@ input, label, select, textarea {
     /* Set grid to two columns on tablet */
     .twocol-grid {
         grid-template-columns: 48% 48%;
+
+		display: grid;
+		gap: 1%;
+		margin-bottom: 60px;
     }
 
     /* set grid to three columns on tablet */
     .threecol-grid {
         grid-template-columns: 32% 32% 32%;
+
+		display: grid;
+		gap: 1%;
+		margin-bottom: 60px;
     }
 
 	/*tablet viewport for main content*/
