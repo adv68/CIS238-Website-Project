@@ -9,6 +9,7 @@ function openSideNav(){
 }
 
 
+/*
 var orders = new Array();
 var qtyOfOrders = {
 	1:[0, "Strawberry Banana"],
@@ -52,3 +53,4 @@ function resetCart(){
 	}
 	document.getElementById("catering-cart").innerHTML = "<span id='orders-title'>Orders</span>"
 }
+*/

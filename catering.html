@@ -1,221 +1,113 @@
-<!--
-    Template file for the CIS 238 Group Project
--->
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Smoothie Station</title>
+        <title>Catering | Smoothie Station</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-	<link rel="icon" sizes="192x192" href="images/android-chrome-192x192.png">
+		<meta name="description" content="The Smoothie Station offers bulk discount packages and custom catering">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+		<link rel="icon" sizes="192x192" href="images/android-chrome-192x192.png">
     </head>
 
-    <body id="mainBody">
-		<div id="contentWrapper">
-			<!--Header area for name and/or logo-->
-			<header>
-				<div id="navButtonContainer" class="mobile-tablet">
-					<img id="mobileNavBtn" src="images/menu-icon.png" alt="mobile menu button" onclick="openSideNav()"/>
-					<!--<a href="index.html"><img id="mobileLogoCenter" width="60px" height="60px" src="images/small-logo.png" alt="Smoothie Station logo"/></a>-->
-					<a href="index.html"><h1 id="mobileLogoCenter"><img src="images/small-logo.png" alt="Smoothie Station Logo"/><span class="tablet-only">Smoothie Station</span></h1></a>
-				</div>
-				
-				<div class="desktop-only">
-					<h1><img width="50" height="75" src="images/smoothie-station-logo.png" alt="Smoothie Station logo">Smoothie Station</h1>  
-				</div>
-			</header>
-
-			<!--Nav area for navigation links-->
-			<nav>
-				<div class="desktop-only">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdownBtn">About Us</a>
-							<div class="dropdownMenu">
-								<a href="mission.html" class="">Our Mission</a>
-								<a href="sourcing.html">Eco-Friendly Sourcing</a>
-							</div>
-						</li>
-						<li class="dropdown">
-							<a href="#" class="dropdownBtn">Menus</a>
-							<div class="dropdownMenu">
-								<a href="catering.html">Catering Menu</a>
-								<a href="storefront.html">Storefront Menu</a>
-							</div>
-						</li>
-						<li><a href="nutrition.html">Nutrition</a></li>
-						<li><a href="employment.html">Work With Us</a></li>
-						<li><a href="merchandise.html">Merchandise</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
-					</ul>
-				</div>
-
-				
-				<div class="mobile-tablet" id="sideNav">
-					<a href="javascript:void(0)" onclick="closeSideNav()" id="exit-button">X</a>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="mission.html">Our Mission</a></li>
-						<li><a href="sourcing.html">Eco-Friendly Sourcing</a></li>
-						<li><a href="catering.html">Catering Menu</a></li>
-						<li><a href="storefront.html">Storefront Menu</a></li>
-						<li><a href="nutrition.html">Nutrition</a></li>
-						<li><a href="employment.html">Work With Us</a></li>
-						<li><a href="merchandise.html">Merchandise</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
-					</ul>
-				</div>
+    <body>
+		<!--Header area for name and/or logo-->
+		<header>
+			<div id="navButtonContainer" class="mobile-tablet">
+				<img id="mobileNavBtn" src="images/menu-icon.png" alt="mobile menu button" onclick="openSideNav()"/>
+				<!--<a href="index.html"><img id="mobileLogoCenter" width="60px" height="60px" src="images/small-logo.png" alt="Smoothie Station logo"/></a>-->
+				<a href="index.html"><h1 id="mobileLogoCenter"><img src="images/small-logo.png" alt="Smoothie Station Logo"/><span class="tablet-only">Smoothie Station</span></h1></a>
+			</div>
 			
-			</nav>
+			<div class="desktop-only">
+				<h1><img width="50" height="75" src="images/smoothie-station-logo.png" alt="Smoothie Station logo">Smoothie Station</h1>  
+			</div>
+		</header>
 
-			<!--Main area for main page content-->
-			<main id="catering">
-				<div id="menu">
-					<h2>Can't bring the party to us?<br>We'll bring it to you!</h2>
-					<div id="menu-items" class="twocol-grid">
-						<figure>
-							<div class="figure-data" style="background-image: url('images/small-logo.png'); background-repeat: repeat;">
-								<img src="images/three-smoothies.jpg" alt="picture of three smoothies">
-								<figcaption>24 Smoothie Bundle</figcaption>
-							</div>
+		<!--Nav area for navigation links-->
+		<nav>
+			<div class="desktop-only">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdownBtn">About Us</a>
+						<div class="dropdownMenu">
+							<a href="mission.html" class="">Our Mission</a>
+							<a href="sourcing.html">Eco-Friendly Sourcing</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdownBtn">Menus</a>
+						<div class="dropdownMenu">
+							<a href="catering.html">Catering Menu</a>
+							<a href="storefront.html">Storefront Menu</a>
+						</div>
+					</li>
+					<li><a href="nutrition.html">Nutrition</a></li>
+					<li><a href="employment.html">Work With Us</a></li>
+					<li><a href="merchandise.html">Merchandise</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
 
-							<div class="catering-desc">
-								<p>The 24 smoothie bundle includes 24 smoothies at a discounted rate. Various flavor combinations can be ordered including 6 of each flavor, 12 each of two flavors or 24 of one flavor</p>
-							</div>
-						</figure>
+			
+			<div class="mobile-tablet" id="sideNav">
+				<a href="javascript:void(0)" onclick="closeSideNav()" id="exit-button">X</a>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="mission.html">Our Mission</a></li>
+					<li><a href="sourcing.html">Eco-Friendly Sourcing</a></li>
+					<li><a href="catering.html">Catering Menu</a></li>
+					<li><a href="storefront.html">Storefront Menu</a></li>
+					<li><a href="nutrition.html">Nutrition</a></li>
+					<li><a href="employment.html">Work With Us</a></li>
+					<li><a href="merchandise.html">Merchandise</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+		
+		</nav>
 
-						<figure>
-							<div class="figure-data">
-								<img src="images/salad-sandwich.jpg">
-								<figcaption>Sandwich / Salad Bundle</figcaption>
-							</div>
+		<!--Main area for main page content-->
+		<main id="catering">
+			<div id="menu">
+				<h2>Can't bring the party to us?<br>We'll bring it to you!</h2>
+				<div id="menu-items" class="twocol-grid">
+					<figure>
+						<div class="figure-data">
+							<img src="images/three-smoothies.jpg" alt="picture of three smoothies">
+							<figcaption>24 Smoothie Bundle</figcaption>
+						</div>
+					</figure>
 
-							<div class="catering-desc">
-								<p>The sandwich and salad bundle includes 12 sandwiches and 12 salads.</p>
-							</div>
-						</figure>
-					</div>
+					<figure>
+						<div class="figure-data">
+							<img src="images/salad-sandwich.jpg">
+							<figcaption>Sandwich / Salad Bundle</figcaption>
+						</div>
+					</figure>
+					
+					<p>The 24 smoothie bundle includes 24 smoothies at a discounted rate. Various flavor combinations can be ordered including 6 of each flavor, 12 each of two flavors or 24 of one flavor</p>
+
+					<p>The sandwich and salad bundle includes 12 sandwiches and 12 salads.</p>
 				</div>
+			</div>
 
-				<h2>Looking for custom catering?<br><a href="contact.html">Contact us</a> and we can make arrangements personalized to your event.</h2>
-				<!--
-				<div id="menu" class="round">
-					<h2>Can't bring the party to us? <br> We'll bring it to you!</h2>
-					
-					<div id="menu-items" class="menu-grid">
-						
-						<figure>
-							<div class="figure-data">
-								<img src="images/strawberry.jpg" alt="#"/>
-								<figcaption>Strawberry Banana</figcaption>
-							</div>
-							
-							<div class="catering-desc">
-								<p> This is a basic description of the food that is presented</p>
-							</div>
-						</figure>
-						
-						<figure>
-							<div class="figure-data">
-								<img src="images/wildberry.jpg" alt="#"/>
-								<figcaption>Wild Berry</figcaption>
-							</div>
-							
-							<div class="catering-desc">
-								<p> This is a basic description of the food that is presented</p>
-							</div>
-						</figure>
-						
-						<figure>
-							<div class="figure-data">
-								<img src="images/peanut-butter.jpg" alt="#"/>
-								<figcaption>PB &amp Banana</figcaption>
-							</div>
-							
-							<div class="catering-desc">
-								<p> This is a basic description of the food that is presented</p>
-							</div>
-						</figure>
-						
-						<figure>
-							<div class="figure-data">
-								<img src="images/mango.jpg" alt="#"/>
-								<figcaption>Mango</figcaption>
-							</div>
-							
-							<div class="catering-desc">
-								<p> This is a basic description of the food that is presented</p>
-							</div>
-						</figure>
-						
-						<figure>
-							<div class="figure-data">
-								<img src="images/salad.jpg" alt="#"/>
-								<figcaption>Greek Salad</figcaption>
-							</div>
-							
-							<div class="catering-desc">
-								<p> This is a basic description of the food that is presented</p>
-							</div>
-						</figure>
-						
-						<figure>
-							<div class="figure-data">
-								<img src="images/sandwich.jpg" alt="#"/>
-								<figcaption>Sandwiches</figcaption>
-							</div>
-							
-							<div class="catering-desc">
-								<p> This is a basic description of the food that is presented</p>
-							</div>
-						</figure>
-						
-					</div>
-				</div>
-				<div id="catering-order">
-					<form id="catering-form">
-						<select name="dropdown" id="catering-dropdown" class="catering-form-template-style">
-							<option value="1">Strawberry Banana</option>
-							<option value="2">Wildberry</option>
-							<option value="3">Peanut Butter Banana</option>
-							<option value="4">Mango</option>
-							<option value="5">Greek Salad</option>
-							<option value="6">Sandwiches</option>
-						</select>
-						
-						<input type="text" id="catering-qty" class="catering-form-template-style" placeholder="QTY.">
-						<input type="submit" class="catering-form-template-style">
-					</form>
-					
-					<button onclick="addToCateringCart()" class="catering-form-template-style">Add to Order</button>
-					<button onclick="resetCart()" class="catering-form-template-style">Reset Order</button>
-					
-					<div id="catering-cart">
-						<span id="orders-title">Orders</span>
-					</div>
-					
-				</div>
-			-->
+			<h2>Looking for custom catering?<br><a href="contact.html">Contact us</a> and we can make arrangements personalized to your event.</h2>
+		</main>
 
-			</main>
-
-			<!--Footer area for footer content-->
-			<footer>
-				<p>
-					&#169; Copyright 2021. All Rights Reserved.
-				</p>
-				<p>
-					<!--Example email that is hopefully bogus and not real-->
-					SmoothieStation@yahoo.com
-				</p>
-			</footer>
-			<script type="text/javascript" src="scripts/script.js"></script>
-		</div>
+		<!--Footer area for footer content-->
+		<footer>
+			<p>
+				&#169; Copyright 2021. All Rights Reserved.
+			</p>
+			<p>
+				<!--Example email that is hopefully bogus and not real-->
+				SmoothieStation@yahoo.com
+			</p>
+		</footer>
+		<script type="text/javascript" src="scripts/script.js"></script>
     </body>
 </html>
