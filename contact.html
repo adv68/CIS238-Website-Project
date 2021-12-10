@@ -92,15 +92,15 @@
 					<fieldset>
 						<legend>Please provide your information below:</legend>
 						<div class="formLine">
-							<label for="firstName">First Name:</label>
+							<label for="firstName">*First Name:</label>
 							<input type="text" name="firstName" id="firstName" required>
 						</div>
 						<div class="formLine">
-							<label for="lastName">Last Name:</label>
+							<label for="lastName">*Last Name:</label>
 							<input type="text" name="lastName" id="lastName" required>
 						</div>
 						<div class="formLine">
-							<label for="emailAddr">Email:</label>
+							<label for="emailAddr">*Email:</label>
 							<input type="email" name="emailAddr" id="emailAddr" required>
 						</div>
 						<div class="formLine">
@@ -127,6 +127,14 @@
 						<div class="formLine">
 							<textarea id="questions" name="questions" rows="6" cols="36"></textarea>
 						</div>
+						<div class="formLine">
+							<p>Which product of ours would you recommend?</p>
+							
+							<label for="fd"><input type="checkbox" name="interest" id="fd" value="Food items">Food Items</label>
+							
+							<label for="both"><input type="checkbox" name="interest" id="both" value="Both Food/Smoothies">Both Food/Smoothies</label>
+							
+							<label for="sm"><input type="checkbox" name="interest" id="sm" value="Smoothies">Smoothies</label>					
 					</fieldset>
 
 					<input type="submit" id="submit" value="Submit" class="btn">
