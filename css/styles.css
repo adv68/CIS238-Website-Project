@@ -306,8 +306,10 @@ input, label, select, textarea {
 	text-align: center;
 }
 
-.checkbox-lab, label[type=checkbox] {
-    display: inline-block;
+label[type=checkbox] {
+    display: inline;
+    width: auto;
+    margin: 5px;
 }
 
 /* Media Query for Tablet Viewport */
