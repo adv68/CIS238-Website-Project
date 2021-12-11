@@ -92,27 +92,28 @@
 					<fieldset>
 						<legend>Please provide your information below:</legend>
 						<div class="formLine">
-							<label for="firstName">*First Name:</label>
+							<label for="firstName"><span class="red-text">*</span>First Name:</label>
 							<input type="text" name="firstName" id="firstName" required>
 						</div>
 						<div class="formLine">
-							<label for="lastName">*Last Name:</label>
+							<label for="lastName"><span class="red-text">*</span>Last Name:</label>
 							<input type="text" name="lastName" id="lastName" required>
 						</div>
 						<div class="formLine">
-							<label for="emailAddr">*Email:</label>
+							<label for="emailAddr"><span class="red-text">*</span>Email:</label>
 							<input type="email" name="emailAddr" id="emailAddr" required>
 						</div>
 						<div class="formLine">
 							<label for="phoneNum">Phone:</label>
 							<input type="tel" id="phoneNum" name="phoneNum">
 						</div>
+						<label><span class="red-text">* Denotes required</span></label>
 					</fieldset>
 
 					<fieldset>
-						<legend>How likely are you to refer us to a friend?</legend>
+						<legend>Feedback</legend>
 						<div class="formLine">
-							<label for="reference">Select:</label>
+							<label for="reference">How likely are you to refer us to a friend?</label>
 							<select name="reference" id="reference">
 								<option value="ad">Very likely</option>
 								<option value="friend">likely</option>
@@ -131,12 +132,15 @@
 							<label for="products">Which product(s) of ours would you recommend?</label>
 						</div>
 						<div>
-							
-							<label for="fd"><input type="checkbox" name="interest" id="fd" value="Food items">Food Items</label>
-							
-							<label for="both"><input type="checkbox" name="interest" id="both" value="Both Food/Smoothies">Both Food/Smoothies</label>
-							
-							<label for="sm"><input type="checkbox" name="interest" id="sm" value="Smoothies">Smoothies</label>
+							<div class="formLine">
+								<label class="checkbox-lab" for="fd"><input type="checkbox" name="interest" id="fd" value="Food items">Food Items</label>
+							</div>
+							<div class="formLine">
+								<label class="checkbox-lab" for="both"><input type="checkbox" name="interest" id="both" value="Both Food/Smoothies">Both Food/Smoothies</label>
+							</div>
+							<div class="formLine">
+								<label class="checkbox-lab" for="sm"><input type="checkbox" name="interest" id="sm" value="Smoothies">Smoothies</label>
+							</div>
 						</div>
 					</fieldset>
 

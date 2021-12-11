@@ -203,63 +203,6 @@ main h2, main h3 {
 	left: 0;
 }
 
-#catering-order{
-	display: block;
-}
-
-#catering-qty{
-	width: 50px;
-}
-
-#catering-cart{
-	text-align: left;
-	margin: 1%;
-	padding: 2%;
-	border: 2px solid black;
-	border-radius: 5px;
-	position: relative;
-}
-
-#orders-title{
-	position: absolute;
-	top: -11px;
-	background: #fff;
-	border: 2px solid black;
-	border-radius: 5px;
-	width: 100px;
-	text-align: center;
-}
-
-.catering-form-template-style{
-	border: 0;
-    height: 30px;
-    border-radius: 20px;
-    text-align: center;
-    font-weight: bold;
-    font-family: "Mongolian Baiti";
-    font-size: 1em;
-	background: #fff;
-	margin: 5px;
-}
-
-/* display grid as one column on mobile */
-
-/*
-.twocol-grid {
-    display: grid;
-    grid-template-columns: 100%;
-    gap: 20px;
-	margin-bottom: 60px;
-}
-
-.threecol-grid {
-    display: grid;
-    grid-template-columns: 100%;
-    gap: 1%;
-	margin-bottom: 60px;
-}
-*/
-
 article {
     padding: 5px;
 }
@@ -286,25 +229,6 @@ tr, td {
 	text-align: center;
 }
 
-@keyframes scrollAnim {
-	0%  { content: url(../images/three-smoothies.jpg); }
-	20% { content: url(../images/strawberry.jpg); }
-	40% { content: url(../images/mango.jpg); }
-	60% { content: url(../images/wildberry.jpg); }
-	80% { content: url(../images/peanut-butter.jpg); }
-	100%{ content: url(../images/three-smoothies.jpg); } 
-}
-
-#scrollingImgCont {
-	width: 100%;
-}
-
-#scrollingImg {
-	animation: scrollAnim;
-	animation-duration: 20s;
-	animation-iteration-count: infinite;
-}
-
 .badgeImg {
 	display: block;
     width: 80%;
@@ -322,6 +246,10 @@ tr, td {
 
 .ul-leftmarg {
 	margin-left: 20px;
+}
+
+.red-text {
+    color: #ff0000;
 }
 
 /* Style rules for footer area */
@@ -378,6 +306,10 @@ input, label, select, textarea {
 	text-align: center;
 }
 
+.checkbox-lab, label[type=checkbox] {
+    display: inline-block;
+}
+
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 600px) {
     /* Hide mobile only, show tablet content */
@@ -401,10 +333,6 @@ input, label, select, textarea {
 		display: inline;
 	}
 	
-	/* Style rules for body */
-
-
-
     /* Style rules for header */
     #mobileLogoCenter {
         height: 55px;
@@ -438,6 +366,24 @@ input, label, select, textarea {
     }
 
 	/*tablet viewport for main content*/
+    @keyframes scrollAnim {
+        0%  { content: url(../images/three-smoothies.jpg); }
+        20% { content: url(../images/strawberry.jpg); }
+        40% { content: url(../images/mango.jpg); }
+        60% { content: url(../images/wildberry.jpg); }
+        80% { content: url(../images/peanut-butter.jpg); }
+        100%{ content: url(../images/three-smoothies.jpg); } 
+    }
+    
+    #scrollingImgCont {
+        width: 100%;
+    }
+    
+    #scrollingImg {
+        animation: scrollAnim;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+    }
 
 	/*style rules for contact page tablet-desktop*/
 	.tel-num{
