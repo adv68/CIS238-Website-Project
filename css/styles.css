@@ -306,7 +306,7 @@ input, label, select, textarea {
 	text-align: center;
 }
 
-label[type=checkbox] {
+label[type="checkbox"] {
     display: inline;
     width: auto;
     margin: 5px;
